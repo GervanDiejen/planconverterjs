@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>KLWB to KIND</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>25000</CruisingAlt>
+        <DepartureID>KLWB</DepartureID>
+        <DepartureLLA>N37° 51' 2.59",W80° 24' 22.53",+002302.00</DepartureLLA>
+        <DestinationID>KIND</DestinationID>
+        <DestinationLLA>N39° 42' 24.32",W86° 19' 13.29",+000797.00</DestinationLLA>
+        <Descr>KLWB, KIND</Descr>
+        <DeparturePosition>4</DeparturePosition>
+        <DepartureName>Greenbrier Valley</DepartureName>
+        <DestinationName>Indianapolis Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KLWB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 51' 2.59",W80° 24' 22.53",+002302.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KLWB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KIND">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N39° 42' 24.32",W86° 19' 13.29",+000797.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KIND</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>PASI to CYCP</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>29000</CruisingAlt>
+        <DepartureID>PASI</DepartureID>
+        <DepartureLLA>N57° 2' 49.70",W135° 21' 41.76",+000019.00</DepartureLLA>
+        <DestinationID>CYCP</DestinationID>
+        <DestinationLLA>N52° 7' 0.00",W119° 17' 0.00",+002237.00</DestinationLLA>
+        <Descr>PASI, CYCP</Descr>
+        <DepartureName>Sitka Rocky Gutierrez</DepartureName>
+        <DestinationName>Blue River</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="PASI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N57° 2' 49.70",W135° 21' 41.76",+000019.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>PASI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 4' 9.76",W119° 38' 18.12",+010000.00</WorldPosition>
+            <Descr>IAF</Descr>
+        </ATCWaypoint>
+        <ATCWaypoint id="APP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 2' 52.24",W119° 31' 20.36",+007000.00</WorldPosition>
+            <Descr>APP1</Descr>
+        </ATCWaypoint>
+        <ATCWaypoint id="APP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 4' 24.95",W119° 26' 41.04",+005500.00</WorldPosition>
+            <Descr>APP2</Descr>
+        </ATCWaypoint>
+        <ATCWaypoint id="CYCP">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N52° 7' 0.00",W119° 17' 0.00",+002237.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYCP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

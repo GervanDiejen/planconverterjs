@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>TFFF to TKPK</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>10500</CruisingAlt>
+        <DepartureID>TFFF</DepartureID>
+        <DepartureLLA>N14° 35' 18.72",W61° 1' 4.38",+000016.00</DepartureLLA>
+        <DestinationID>TKPK</DestinationID>
+        <DestinationLLA>N17° 18' 20.06",W62° 43' 38.94",+000168.00</DestinationLLA>
+        <Descr>TFFF, TKPK</Descr>
+        <DeparturePosition>9</DeparturePosition>
+        <DepartureName>Le Lamentin</DepartureName>
+        <DestinationName>Bradshaw Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="TFFF">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N14° 35' 18.72",W61° 1' 4.38",+000016.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>TFFF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TKPK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N17° 18' 20.06",W62° 43' 38.94",+000168.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>TKPK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

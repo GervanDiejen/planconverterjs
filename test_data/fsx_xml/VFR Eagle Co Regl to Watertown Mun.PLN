@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>KEGE to KATY</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>25000</CruisingAlt>
+        <DepartureID>KEGE</DepartureID>
+        <DepartureLLA>N39° 38' 27.88",W106° 55' 52.66",+006535.00</DepartureLLA>
+        <DestinationID>KATY</DestinationID>
+        <DestinationLLA>N44° 54' 7.08",W97° 9' 4.19",+001748.00</DestinationLLA>
+        <Descr>KEGE, KATY</Descr>
+        <DeparturePosition>7</DeparturePosition>
+        <DepartureName>Eagle Co Regl</DepartureName>
+        <DestinationName>Watertown Mun</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KEGE">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N39° 38' 27.88",W106° 55' 52.66",+006535.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KEGE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KATY">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N44° 54' 7.08",W97° 9' 4.19",+001748.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KATY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

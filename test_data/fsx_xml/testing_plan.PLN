@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>ESOW to LFPG</Title>
+        <FPType>VFR</FPType>
+        <RouteType>VOR</RouteType>
+        <CruisingAlt>4500</CruisingAlt>
+        <DepartureID>ESOW</DepartureID>
+        <DepartureLLA>N59° 34' 43.84",E16° 37' 45.83",+000021.00</DepartureLLA>
+        <DestinationID>LFPG</DestinationID>
+        <DestinationLLA>N48° 59' 44.31",E2° 33' 13.66",+000392.00</DestinationLLA>
+        <Descr>ESOW, LFPG</Descr>
+        <DeparturePosition>1</DeparturePosition>
+        <DepartureName>Vaesteraas AB</DepartureName>
+        <DestinationName>Charles-de-Gaulle</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="ESOW">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N59° 34' 43.84",E16° 37' 45.83",+000021.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>ESOW</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ARS">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N59° 35' 10.30",E16° 39' 1.40",+000050.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>ES</ICAORegion>
+                <ICAOIdent>ARS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="JON">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N57° 45' 37.40",E14° 3' 55.50",+000774.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>ES</ICAORegion>
+                <ICAOIdent>JON</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ODN">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N55° 34' 51.65",E10° 39' 10.76",+000024.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>EK</ICAORegion>
+                <ICAOIdent>ODN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="EGB">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N54° 37' 23.99",E9° 20' 31.20",+000096.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>ED</ICAORegion>
+                <ICAOIdent>EGB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N53° 0' 15.84",E6° 14' 35.76",+004500.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="VKL">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N51° 39' 19.56",E5° 42' 26.04",+000084.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>EH</ICAORegion>
+                <ICAOIdent>VKL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="BBE">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N50° 45' 23.01",E4° 46' 5.00",+000345.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>EB</ICAORegion>
+                <ICAOIdent>BBE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="GSY">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N50° 27' 13.82",E4° 26' 28.95",+000655.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>EB</ICAORegion>
+                <ICAOIdent>GSY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="BSN">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N49° 11' 17.91",E3° 3' 23.30",+000632.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LF</ICAORegion>
+                <ICAOIdent>BSN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="PGS">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N48° 59' 58.11",E2° 37' 25.70",+000351.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LF</ICAORegion>
+                <ICAOIdent>PGS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LFPG">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48° 59' 44.31",E2° 33' 13.66",+000392.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LFPG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

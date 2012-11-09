@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>KLWB to KSAV</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>25000</CruisingAlt>
+        <DepartureID>KLWB</DepartureID>
+        <DepartureLLA>N37° 51' 2.59",W80° 24' 22.53",+002302.00</DepartureLLA>
+        <DestinationID>KSAV</DestinationID>
+        <DestinationLLA>N32° 7' 0.79",W81° 11' 59.98",+000050.00</DestinationLLA>
+        <Descr>KLWB, KSAV</Descr>
+        <DeparturePosition>4</DeparturePosition>
+        <DepartureName>Greenbrier Valley</DepartureName>
+        <DestinationName>Savannah/Hilton Head Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KLWB">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 51' 2.59",W80° 24' 22.53",+002302.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KLWB</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KSAV">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N32° 7' 0.79",W81° 11' 59.98",+000050.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KSAV</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

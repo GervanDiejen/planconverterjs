@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+<Descr>AceXML Document</Descr>
+<FlightPlan.FlightPlan>
+<Title>LLBG to LGAV</Title>
+<FPType>IFR</FPType>
+<RouteType>HighAlt</RouteType>
+<CruisingAlt>38000</CruisingAlt>
+<DepartureID>LLBG</DepartureID>
+<DepartureLLA>N32° 00' 34.00" , E34° 52' 37.00",</DepartureLLA>
+<DestinationID>LGAV</DestinationID>
+<DestinationLLA>N37° 56' 12.00" , E23° 56' 40.00",</DestinationLLA>
+<Descr>LLBG, LGAV</Descr>
+<DeparturePosition>26</DeparturePosition>
+<DepartureName>BEN_GURION</DepartureName>
+<DestinationName>ELEFTHERIOS_VENIZELOS_INTL</DestinationName>
+<AppVersion>
+<AppVersionMajor>10</AppVersionMajor>
+<AppVersionBuild>60905</AppVersionBuild>
+</AppVersion>
+<ATCWaypoint id="LLBG">
+<ATCWaypointType>Airport</ATCWaypointType>
+<WorldPosition>N32° 00' 34.00",E34° 52' 37.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>LLBG</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="DEENA">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N32° 01' 23.00",E34° 38' 24.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>DEENA</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="D270R">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N32° 01' 58.00",E34° 31' 23.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>D270R</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="TIBBI">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N32° 01' 59.00",E34° 22' 59.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>TIBBI</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="PURLA">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N32° 02' 23.00",E34° 14' 24.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>PURLA</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="DASNI">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N35° 37' 00.00",E30° 51' 00.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>DASNI</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="EVENO">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N35° 49' 59.00",E30° 00' 00.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>EVENO</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="EXELA">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N35° 57' 20.00",E29° 32' 52.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>EXELA</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="LAKAD">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N36° 14' 02.00",E28° 29' 44.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>LAKAD</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="VANES">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N36° 23' 05.00",E27° 43' 54.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>VANES</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="GILOS">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N36° 29' 14.00",E26° 54' 01.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>GILOS</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="ADESO">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N36° 31' 59.00",E26° 30' 39.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>ADESO</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="ASTIS">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N36° 33' 55.00",E26° 13' 58.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>ASTIS</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="PEROK">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N37° 12' 15.00",E25° 27' 06.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>PEROK</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="RIPLI">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N37° 16' 32.00",E25° 21' 46.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>RIPLI</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="VARIX">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N37° 21' 50.00",E25° 02' 03.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>VARIX</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="KEA">
+<ATCWaypointType>VOR</ATCWaypointType>
+<WorldPosition>N37° 33' 25.00",E24° 17' 52.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>KEA</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="LGAV">
+<ATCWaypointType>Airport</ATCWaypointType>
+<WorldPosition>N37° 56' 12.00",E23° 56' 40.00",</WorldPosition>
+<ICAO>
+<ICAOIdent>LGAV</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+</FlightPlan.FlightPlan>
+</SimBase.Document>

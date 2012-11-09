@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>GCLP to KDTW</Title>
+        <FPType>IFR</FPType>
+        <RouteType>HighAlt</RouteType>
+        <CruisingAlt>55000</CruisingAlt>
+        <DepartureID>GCLP</DepartureID>
+        <DepartureLLA>N27° 55' 55.00" , W15° 23' 12.00",</DepartureLLA>
+        <DestinationID>KDTW</DestinationID>
+        <DestinationLLA>N42° 12' 44.00" , W83° 21' 12.00",</DestinationLLA>
+        <Descr>GCLP, KDTW</Descr>
+        <DeparturePosition>3R</DeparturePosition>
+        <DepartureName>GRAN_CANARIA</DepartureName>
+        <DestinationName>DETROIT_METRO_WAYNE_CO</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>60905</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="GCLP">
+             <ATCWaypointType>Airport</ATCWaypointType>
+             <WorldPosition>N27° 55' 55.00",W15° 23' 12.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>GCLP</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="BRICK">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N29° 35' 28.00",W16° 22' 22.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>BRICK</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="3221N">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N32° 00' 00.00",W21° 00' 00.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>3221N</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="3426N">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N34° 00' 00.00",W26° 00' 00.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>3426N</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="3631N">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N36° 00' 00.00",W31° 00' 00.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>3631N</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="3837N">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N38° 00' 00.00",W37° 00' 00.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>3837N</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="4043N">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N40° 00' 00.00",W43° 00' 00.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>4043N</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="4149N">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N41° 00' 00.00",W49° 00' 00.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>4149N</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="4256N">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N42° 00' 00.00",W56° 00' 00.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>4256N</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="4262N">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N42° 00' 00.00",W62° 00' 00.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>4262N</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TUSKY">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N43° 33' 53.00",W67° 00' 00.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>TUSKY</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="BOS">
+             <ATCWaypointType>VOR</ATCWaypointType>
+             <WorldPosition>N42° 21' 26.00",W70° 59' 22.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>BOS</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ALB">
+             <ATCWaypointType>VOR</ATCWaypointType>
+             <WorldPosition>N42° 44' 50.00",W73° 48' 11.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>ALB</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="FABEN">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N42° 51' 12.00",W75° 57' 07.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>FABEN</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="AUDIL">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N42° 52' 18.00",W76° 26' 35.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>AUDIL</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="JOSSY">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N42° 53' 29.00",W77° 02' 36.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>JOSSY</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="HANKK">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N42° 53' 41.00",W77° 09' 15.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>HANKK</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WELTI">
+             <ATCWaypointType>Intersection</ATCWaypointType>
+             <WorldPosition>N42° 54' 47.00",W77° 53' 19.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>WELTI</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="BUF">
+             <ATCWaypointType>VOR</ATCWaypointType>
+             <WorldPosition>N42° 55' 44.00",W78° 38' 46.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>BUF</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="YQO">
+             <ATCWaypointType>VOR</ATCWaypointType>
+             <WorldPosition>N42° 42' 24.00",W80° 53' 17.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>YQO</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KDTW">
+             <ATCWaypointType>Airport</ATCWaypointType>
+             <WorldPosition>N42° 12' 44.00",W83° 21' 12.00",</WorldPosition>
+             <ICAO>
+                 <ICAOIdent>KDTW</ICAOIdent>
+             </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

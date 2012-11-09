@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>KJFK to LFBO</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>3500</CruisingAlt>
+        <DepartureID>KJFK</DepartureID>
+        <DepartureLLA>N40° 37' 42.42",W73° 46' 21.99",+000013.00</DepartureLLA>
+        <DestinationID>LFBO</DestinationID>
+        <DestinationLLA>N43° 37' 9.82",E1° 22' 18.01",+000499.00</DestinationLLA>
+        <Descr>KJFK, LFBO</Descr>
+        <DeparturePosition>31L</DeparturePosition>
+        <DepartureName>Kennedy Intl</DepartureName>
+        <DestinationName>Blagnac</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KJFK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N40° 37' 42.42",W73° 46' 21.99",+000013.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KJFK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CRI">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N40° 36' 44.91",W73° 53' 40.00",+000010.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>K6</ICAORegion>
+                <ICAOIdent>CRI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="SHIPP">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N40° 19' 45.95",W73° 14' 50.18",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>K6</ICAORegion>
+                <ICAOIdent>SHIPP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CAA">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N44° 31' 52.19",W1° 8' 9.70",+000125.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LF</ICAORegion>
+                <ICAOIdent>CAA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LFBO">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43° 37' 9.82",E1° 22' 18.01",+000499.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LFBO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

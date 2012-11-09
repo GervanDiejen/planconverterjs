@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+ <Descr>AceXML Document</Descr>
+ <FlightPlan.FlightPlan>
+   <Title>ESSA to UNKL</Title>
+    <FPType>IFR</FPType>
+    <CruisingAlt>41000</CruisingAlt>
+    <DepartureID>ESSA</DepartureID>
+    <DepartureLLA>N59° 39' 7.00000",E17° 55' 6.99866",+000136.50</DepartureLLA>
+    <DestinationID>UNKL</DestinationID>
+    <DestinationLLA>N56° 10' 18.00000",E92° 29' 35.99933",+000941.50</DestinationLLA>
+   <Descr>ESSA, UNKL</Descr>
+   <RouteType>Direct</RouteType>
+   <DeparturePosition></DeparturePosition>
+   <DepartureName>Arlanda</DepartureName>
+   <DestinationName>Yemelyanovo</DestinationName>
+    <AppVersion>
+      <AppVersionMajor>10</AppVersionMajor>
+      <AppVersionBuild>60905</AppVersionBuild>
+    </AppVersion>
+    <ATCWaypoint id="ESSA">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N59° 39' 7.00000",E17° 55' 6.99866",+000136.50</WorldPosition>
+      <ICAO>
+        <ICAOIdent>ESSA</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="NTL">
+      <ATCWaypointType>VOR</ATCWaypointType>
+      <WorldPosition>N59° 44' 59.29999",E18° 46' 0.60066",+009000.00</WorldPosition>
+      <ICAO>
+        <ICAORegion>ES</ICAORegion>
+        <ICAOIdent>NTL</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="PEVEN">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N59° 37' 0.011111",E21° 33' 34.99933",+037500.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>PEVEN</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="EESTI">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N59° 49' 53.99999",E24° 36' 16.99999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>EESTI</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="VABAK">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N60° 7' 0.01000",E28° 31' 59.99000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>VABAK</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="KEGUP">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N61° 17' 42.00000",E35° 20' 11.99933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>KEGUP</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="ULAN">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N62° 7' 0.01000",E42° 53' 59.99000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>ULAN</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="RENTA">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N62° 14' 18.00000",E51° 42' 17.99933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>RENTA</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="ABELO">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N61° 56' 35.99933",E64° 53' 36.00066",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>ABELO</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="LOREK">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N60° 20' 59.99000",E76° 29' 0.01000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>LOREK</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="TOGBA">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N59° 23' 42.00000",E80° 43' 0.01000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>TOGBA</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="DESIK">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N57° 21' 0.01000",E88° 10' 0.01000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>DESIK</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="KEDUR">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N56° 16' 59.99000",E91° 32' 59.99000",+011000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>KEDUR</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="UNKL">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N56° 10' 18.00000",E92° 29' 35.99933",+000941.50</WorldPosition>
+      <ICAO>
+        <ICAOIdent>UNKL</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+  </FlightPlan.FlightPlan>
+</SimBase.Document>

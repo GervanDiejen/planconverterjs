@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>SAMM to SCTE</Title>
+        <FPType>IFR</FPType>
+        <RouteType>HighAlt</RouteType>
+        <CruisingAlt>35000</CruisingAlt>
+        <DepartureID>SAMM</DepartureID>
+        <DepartureLLA>S35° 29' 34.02",W69° 34' 23.01",+004665.00</DepartureLLA>
+        <DestinationID>SCTE</DestinationID>
+        <DestinationLLA>S41° 27' 1.61",W73° 5' 39.72",+000294.00</DestinationLLA>
+        <Descr>SAMM, SCTE</Descr>
+        <DeparturePosition>32</DeparturePosition>
+        <DepartureName>Malargue</DepartureName>
+        <DestinationName>El Tepual Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="SAMM">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S35° 29' 34.02",W69° 34' 23.01",+004665.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>SAMM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="MOCHO">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>S38° 17' 16.00",W70° 20' 40.00",+000000.00</WorldPosition>
+            <ATCAirway>UW44</ATCAirway>
+            <ICAO>
+                <ICAORegion>SA</ICAORegion>
+                <ICAOIdent>MOCHO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CHATO">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>S40° 34' 19.01",W71° 0' 53.00",+000000.00</WorldPosition>
+            <ATCAirway>UW44</ATCAirway>
+            <ICAO>
+                <ICAORegion>SA</ICAORegion>
+                <ICAOIdent>CHATO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="BAR">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>S41° 8' 25.00",W71° 11' 19.60",+000000.00</WorldPosition>
+            <ATCAirway>UW44</ATCAirway>
+            <ICAO>
+                <ICAORegion>SA</ICAORegion>
+                <ICAOIdent>BAR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TONAR">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>S41° 14' 29.99",W71° 51' 0.00",+000000.00</WorldPosition>
+            <ATCAirway>UB682</ATCAirway>
+            <ICAO>
+                <ICAORegion>SC</ICAORegion>
+                <ICAOIdent>TONAR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="SCTE">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S41° 27' 1.61",W73° 5' 39.72",+000294.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>SCTE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

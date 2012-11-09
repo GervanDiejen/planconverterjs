@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>KSEE to KVNY</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>4500</CruisingAlt>
+        <DepartureID>KSEE</DepartureID>
+        <DepartureLLA>N32° 49' 35.51",W116° 57' 54.12",+000387.00</DepartureLLA>
+        <DestinationID>KVNY</DestinationID>
+        <DestinationLLA>N34° 11' 49.21",W118° 29' 21.00",+000802.00</DestinationLLA>
+        <Descr>KSEE, KVNY</Descr>
+        <DeparturePosition>27R</DeparturePosition>
+        <DepartureName>Gillespie</DepartureName>
+        <DestinationName>Van Nuys</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KSEE">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N32° 49' 35.51",W116° 57' 54.12",+000387.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KSEE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KMYF">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N32° 48' 56.59",W117° 8' 22.50",+000427.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KMYF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KVNY">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N34° 11' 49.21",W118° 29' 21.00",+000802.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KVNY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

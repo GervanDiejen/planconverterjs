@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>TNCM to TNCM</Title>
+        <FPType>IFR</FPType>
+        <CruisingAlt>13000</CruisingAlt>
+        <DepartureID>TNCM</DepartureID>
+        <DepartureLLA>N18° 2' 22.8",W63° 6' 43.2",+000009.00</DepartureLLA>
+        <DestinationID>TNCM</DestinationID>
+        <DestinationLLA>N18° 2' 27.050259",W63° 6' 34.259942",+000009.00</DestinationLLA>
+        <Descr>TNCM, TNCM</Descr>
+        <DeparturePosition>9</DeparturePosition>
+        <DepartureName>Princess Juliana Intl</DepartureName>
+        <DestinationName>Princess Juliana Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61472</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="TNCM">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N18° 2' 22.8",W63° 6' 43.2",+000009.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>TNCM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="SYCJ">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N6° 29' 18",W58° 15' 57",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="SBMQ">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N0° 3' 3",W51° 4' 13.8",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="SBSL">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S2° 35' 13.2",W44° 14' 10.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="SBNT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S5° 54' 30",W35° 14' 57",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="GVAC">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N16° 44' 28.8",W22° 56' 58.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="GMMH">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N23° 43' 15",W15° 56' 0",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="GMAD">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N30° 19' 30",W9° 24' 46.8",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LPFR">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 0' 52.2",W7° 57' 57",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LFBO">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43° 38' 6",E1° 22' 4.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="LIRL">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N41° 32' 48",E12° 54' 36",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="HLNM">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N29° 30' 48",E12° 56' 42",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="DRZD">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N18° 58' 7.8",E12° 52' 7.8",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="FKKR">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N9° 20' 12",E13° 22' 52.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="HSSS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N15° 35' 4.8",E32° 33' 25.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="OEJN">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N21° 40' 52.2",E39° 9' 18.6",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="OEHW">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N22° 57' 60",E46° 53' 60",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="OOMS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N23° 35' 34.2",E58° 16' 54",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="VNKT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N27° 41' 49.8",E85° 21' 28.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="VECC">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N22° 39' 10.8",E88° 26' 57",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="VGBR">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N22° 47' 56.4",E90° 18' 4.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="VOPB">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N11° 38' 45",E92° 44' 6",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WMKP">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N5° 17' 49.8",E100° 16' 36",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WIKD">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S2° 44' 42",E107° 45' 10.8",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WRRR">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S8° 44' 51",E115° 10' 8.4",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="YCIN">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S17° 34' 52.8",E123° 49' 42",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="YBAS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S23° 48' 25.2",E133° 54' 7.8",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="YLEC">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S30° 35' 54",E138° 25' 33",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="YMML">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S37° 40' 24",E144° 50' 36",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="YMHB">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S42° 50' 10.2",E147° 30' 37.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="NZNV">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S46° 24' 54",E168° 19' 12",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="NZYP">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S39° 59' 48",E176° 32' 13.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="NZKT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S35° 4' 12",E173° 17' 7.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="YSNF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S29° 2' 33",E167° 56' 16.8",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="NWWK">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S20° 32' 46.8",E164° 15' 19.8",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="AGGH">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S9° 25' 42",E160° 3' 11.4",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="AGGM">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S8° 19' 37.2",E157° 15' 47.4",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="AYKV">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S2° 34' 44.4",E150° 48' 27",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="PTKK">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N7° 27' 42.6",E151° 50' 34.8",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="PGSN">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N15° 7' 8.4",E145° 43' 45.6",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="RJAW">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N24° 47' 27.6",E141° 19' 16.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="RJTQ">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N34° 4' 25.2",E139° 33' 36.6",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="UHSS">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N46° 53' 18.000544",E142° 42' 59.999793",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion></ICAORegion>
+                <ICAOIdent>UHSS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="UHPP">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N53° 10' 11.999792",E158° 27' 5.999522",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion></ICAORegion>
+                <ICAOIdent>UHPP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="PASY">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 42' 44.4",E174° 6' 49.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="PASN">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N57° 10' 2.4",W170° 13' 13.8",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="PABE">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N60° 46' 47.4",W161° 50' 16.8",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="PATA">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N65° 10' 27.6",W152° 6' 33.6",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="CYVQ">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N65° 16' 57",W126° 48' 1.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="CYOP">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N58° 29' 25.8",W119° 24' 10.8",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="CYPA">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N53° 12' 51",W105° 40' 22.2",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="KORD">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N41° 58' 46.8",W87° 54' 15",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="KMIA">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N25° 47' 35.4",W80° 17' 25.8",+000000.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="TNCM">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N18° 2' 27.050259",W63° 6' 34.259942",+000009.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>TNCM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

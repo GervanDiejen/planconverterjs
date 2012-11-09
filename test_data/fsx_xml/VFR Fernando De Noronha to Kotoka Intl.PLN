@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>SBFN to DGAA</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>39000</CruisingAlt>
+        <DepartureID>SBFN</DepartureID>
+        <DepartureLLA>S3° 51' 23.43",W32° 25' 43.97",+000193.00</DepartureLLA>
+        <DestinationID>DGAA</DestinationID>
+        <DestinationLLA>N5° 35' 18.93",W0° 10' 23.62",+000205.00</DestinationLLA>
+        <Descr>SBFN, DGAA</Descr>
+        <DeparturePosition>PARKING 1</DeparturePosition>
+        <DepartureName>Fernando De Noronha</DepartureName>
+        <DestinationName>Kotoka Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="SBFN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S3° 51' 23.43",W32° 25' 43.97",+000193.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>SBFN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="DGAA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N5° 35' 18.93",W0° 10' 23.62",+000205.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>DGAA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

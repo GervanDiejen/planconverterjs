@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>U60 to I99D</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>13500</CruisingAlt>
+        <DepartureID>U60</DepartureID>
+        <DepartureLLA>N45° 7' 40.49",W115° 19' 24.90",+005743.00</DepartureLLA>
+        <DestinationID>I99D</DestinationID>
+        <DestinationLLA>N45° 8' 36.62",W115° 3' 44.08",+004494.00</DestinationLLA>
+        <Descr>U60, I99D</Descr>
+        <DeparturePosition>1</DeparturePosition>
+        <DepartureName>Big Creek</DepartureName>
+        <DestinationName>Dewey Moore Airstrip</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="U60">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 7' 40.49",W115° 19' 24.90",+005743.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>U60</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="I99D">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 8' 36.62",W115° 3' 44.08",+004494.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>I99D</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

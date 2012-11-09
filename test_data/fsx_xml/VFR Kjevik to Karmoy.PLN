@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>ENCN to ENHD</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>8500</CruisingAlt>
+        <DepartureID>ENCN</DepartureID>
+        <DepartureLLA>N58° 12' 5.33",E8° 4' 30.14",+000057.00</DepartureLLA>
+        <DestinationID>ENHD</DestinationID>
+        <DestinationLLA>N59° 20' 15.31",E5° 13' 25.56",+000086.00</DestinationLLA>
+        <Descr>ENCN, ENHD</Descr>
+        <DeparturePosition>PARKING 11</DeparturePosition>
+        <DepartureName>Kjevik</DepartureName>
+        <DestinationName>Karmoy</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="ENCN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N58° 12' 5.33",E8° 4' 30.14",+000057.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>ENCN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ENHD">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N59° 20' 15.31",E5° 13' 25.56",+000086.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>ENHD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

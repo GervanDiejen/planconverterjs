@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>PASI to CYCP</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>10800</CruisingAlt>
+        <DepartureID>PASI</DepartureID>
+        <DepartureLLA>N57° 2' 49.699582",W135° 21' 41.759183",+000019.00</DepartureLLA>
+        <DestinationID>CYCP</DestinationID>
+        <DestinationLLA>N52° 6' 59.999841",W119° 17' 0.000315",+002237.00</DestinationLLA>
+        <Descr>PASI, CYCP</Descr>
+        <DeparturePosition></DeparturePosition>
+        <DepartureName>Sitka Rocky Gutierrez</DepartureName>
+        <DestinationName>Blue River</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61472</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="PASI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N57° 2' 49.699582",W135° 21' 41.759183",+000019.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>PASI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 4' 9.760437",W119° 38' 18.120117",+010000.00</WorldPosition>
+            <Descr>IAF</Descr>
+        </ATCWaypoint>
+        <ATCWaypoint id="APP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 2' 52.238159",W119° 31' 20.36499",+007000.00</WorldPosition>
+            <Descr>APP1</Descr>
+        </ATCWaypoint>
+        <ATCWaypoint id="APP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52° 4' 24.949036",W119° 26' 41.037598",+005500.00</WorldPosition>
+            <Descr>APP2</Descr>
+        </ATCWaypoint>
+        <ATCWaypoint id="CYCP">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N52° 6' 59.999841",W119° 17' 0.000315",+002237.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYCP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

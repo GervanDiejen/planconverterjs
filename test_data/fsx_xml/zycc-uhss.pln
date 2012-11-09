@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+ <Descr>AceXML Document</Descr>
+ <FlightPlan.FlightPlan>
+   <Title>ZYCC to UHSS</Title>
+    <FPType>IFR</FPType>
+    <CruisingAlt>758</CruisingAlt>
+    <DepartureID>ZYCC</DepartureID>
+    <DepartureLLA>N43° 54' 17.99933",E125° 11' 54.00000",+000757.50</DepartureLLA>
+    <DestinationID>UHSS</DestinationID>
+    <DestinationLLA>N46° 53' 18.00000",E142° 42' 59.99000",+000058.50</DestinationLLA>
+   <Descr>ZYCC, UHSS</Descr>
+   <RouteType>Direct</RouteType>
+   <DeparturePosition></DeparturePosition>
+   <DepartureName>Dafangshen</DepartureName>
+   <DestinationName>Khomutovo</DestinationName>
+    <AppVersion>
+      <AppVersionMajor>10</AppVersionMajor>
+      <AppVersionBuild>60905</AppVersionBuild>
+    </AppVersion>
+    <ATCWaypoint id="ZYCC">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N43° 54' 17.99933",E125° 11' 54.00000",+000757.50</WorldPosition>
+      <ICAO>
+        <ICAOIdent>ZYCC</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="UHSS">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N46° 53' 18.00000",E142° 42' 59.99000",+000058.50</WorldPosition>
+      <ICAO>
+        <ICAOIdent>UHSS</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+  </FlightPlan.FlightPlan>
+</SimBase.Document>

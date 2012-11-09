@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>ENSN to ENCN</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>4500</CruisingAlt>
+        <DepartureID>ENSN</DepartureID>
+        <DepartureLLA>N59° 11' 27.72",E9° 34' 7.87",+000463.00</DepartureLLA>
+        <DestinationID>ENCN</DestinationID>
+        <DestinationLLA>N58° 11' 49.14",E8° 4' 32.80",+000057.00</DestinationLLA>
+        <Descr>ENSN, ENCN</Descr>
+        <DeparturePosition>19</DeparturePosition>
+        <DepartureName>Geiteryggen</DepartureName>
+        <DestinationName>Kjevik</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="ENSN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N59° 11' 27.72",E9° 34' 7.87",+000463.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>ENSN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ENCN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N58° 11' 49.14",E8° 4' 32.80",+000057.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>ENCN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

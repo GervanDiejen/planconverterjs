@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>VEMN to ZUXC</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>19500</CruisingAlt>
+        <DepartureID>VEMN</DepartureID>
+        <DepartureLLA>N27° 29' 16.15",E95° 1' 28.81",+000362.00</DepartureLLA>
+        <DestinationID>ZUXC</DestinationID>
+        <DestinationLLA>N28° 0' 3.08",E102° 10' 46.07",+005112.00</DestinationLLA>
+        <Descr>VEMN, ZUXC</Descr>
+        <DeparturePosition>23</DeparturePosition>
+        <DepartureName>Dibrugarh</DepartureName>
+        <DestinationName>Qingshan</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="VEMN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N27° 29' 16.15",E95° 1' 28.81",+000362.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>VEMN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N29° 9' 17.01",E97° 30' 2.83",+019500.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="ZUXC">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N28° 0' 3.08",E102° 10' 46.07",+005112.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>ZUXC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

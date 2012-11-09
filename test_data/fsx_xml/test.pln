@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+<Descr>AceXML Document</Descr>
+<FlightPlan.FlightPlan>
+<Title>KJFK to LFBO</Title>
+<FPType>IFR</FPType>
+<RouteType>HighAlt</RouteType>
+<CruisingAlt>60000</CruisingAlt>
+<DepartureID>KJFK</DepartureID>
+<DepartureLLA>N40° 38' 23.10",W73° 46' 44.10",+000012,00</DepartureLLA>
+<DestinationID>LFBO</DestinationID>
+<DestinationLLA>N43° 38' 6.00",E1° 22' 4.00",+000499,00</DestinationLLA>
+<Descr>KJFK to LFBO</Descr>
+<DeparturePosition>
+</DeparturePosition>
+<DepartureName>Kennedy Intl</DepartureName>
+<DestinationName>Blagnac</DestinationName>
+<AppVersion>
+<AppVersionMajor>10</AppVersionMajor>
+<AppVersionBuild>61472</AppVersionBuild>
+</AppVersion>
+<ATCWaypoint id="KJFK">
+<ATCWaypointType>Airport</ATCWaypointType>
+<WorldPosition>N40° 38' 23.10",W73° 46' 44.10",+000012,00</WorldPosition>
+<ICAO>
+<ICAOIdent>KJFK</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="CRI">
+<ATCWaypointType>VOR</ATCWaypointType>
+<WorldPosition>N40° 36' 44.90",W73° 53' 40.00",+000000.00</WorldPosition>
+<ATCAirway>DCT</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>CRI</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="OGY">
+<ATCWaypointType>NDB</ATCWaypointType>
+<WorldPosition>N40° 34' 5.30",W73° 52' 58.70",+000000.00</WorldPosition>
+<ATCAirway>DCT</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>OGY</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="SHIPP">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N40° 19' 46.00",W73° 14' 50.20",+000000.00</WorldPosition>
+<ATCAirway>SID</ATCAirway>
+<ICAO>
+<ICAORegion>K6</ICAORegion>
+<ICAOIdent>SHIPP</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="3967N">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N39° 0' 0.00",W67° 0' 0.00",+000000.00</WorldPosition>
+<ATCAirway>DCT</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>3967N</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="4160N">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N41° 0' 0.00",W60° 0' 0.00",+000000.00</WorldPosition>
+<ATCAirway>DCT</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>4160N</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="4450N">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N44° 0' 0.00",W50° 0' 0.00",+000000.00</WorldPosition>
+<ATCAirway>DCT</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>4450N</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="4640N">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N46° 0' 0.00",W40° 0' 0.00",+000000.00</WorldPosition>
+<ATCAirway>DCT</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>4640N</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="4730N">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N47° 0' 0.00",W30° 0' 0.00",+000000.00</WorldPosition>
+<ATCAirway>DCT</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>4730N</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="4720N">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N47° 0' 0.00",W20° 0' 0.00",+000000.00</WorldPosition>
+<ATCAirway>DCT</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>4720N</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="4610N">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N46° 0' 0.00",W10° 0' 0.00",+000000.00</WorldPosition>
+<ATCAirway>DCT</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>4610N</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="4506N">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N45° 0' 0.00",W6° 0' 0.00",+000000.00</WorldPosition>
+<ATCAirway>DCT</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>4506N</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="SOMOS">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N44° 32' 55.00",W1° 14' 21.00",+000000.00</WorldPosition>
+<ATCAirway>DCT</ATCAirway>
+<ICAO>
+<ICAORegion>LF</ICAORegion>
+<ICAOIdent>SOMOS</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="CAA">
+<ATCWaypointType>VOR
+</ATCWaypointType>
+<WorldPosition>N44° 31' 32.60",W1° 8' 34.50",+000000.00</WorldPosition>
+<ATCAirway>DCT</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>CAA</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="AGN">
+<ATCWaypointType>VOR</ATCWaypointType>
+<WorldPosition>N43° 53' 16.90",E0° 52' 22.30",+000000.00</WorldPosition>
+<ATCAirway>DCT</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>AGN</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="AGN">
+<ATCWaypointType>VOR</ATCWaypointType>
+<WorldPosition>N43° 53' 16.90",E0° 52' 22.30",+000000.00</WorldPosition>
+<ATCAirway>AGN</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>AGN</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="11TBS">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N43° 47' 11.80",E1° 11' 48.80",+000000.00</WorldPosition>
+<ATCAirway>AGN</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>11TBS</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="CF14R">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N43° 44' 47.60",E1° 14' 20.00",+000000.00</WorldPosition>
+<ATCAirway>ILS 14R</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>CF14R</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="FF14R">
+<ATCWaypointType>Intersection</ATCWaypointType>
+<WorldPosition>N43° 41' 39.50",E1° 17' 34.30",+000000.00</WorldPosition>
+<ATCAirway>ILS 14R</ATCAirway>
+<ICAO>
+<ICAORegion>
+</ICAORegion>
+<ICAOIdent>FF14R</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+<ATCWaypoint id="LFBO">
+<ATCWaypointType>Airport</ATCWaypointType>
+<WorldPosition>N43° 38' 6.00",E1° 22' 4.00",+000499,00</WorldPosition>
+<ICAO>
+<ICAOIdent>LFBO</ICAOIdent>
+</ICAO>
+</ATCWaypoint>
+</FlightPlan.FlightPlan>
+</SimBase.Document>

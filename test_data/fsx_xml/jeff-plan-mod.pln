@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+ <Descr>AceXML Document</Descr>
+ <FlightPlan.FlightPlan>
+   <Title>TNCM to TNCM</Title>
+    <FPType>IFR</FPType>
+    <CruisingAlt>41000</CruisingAlt>
+    <DepartureID>TNCM</DepartureID>
+    <DepartureLLA>N18° 2' 27.05000",W63° 6' 34.25933",+000012.50</DepartureLLA>
+    <DestinationID>TNCM</DestinationID>
+    <DestinationLLA>N18° 2' 27.05000",W63° 6' 34.25933",+000012.50</DestinationLLA>
+   <Descr>TNCM, TNCM</Descr>
+   <RouteType>Direct</RouteType>
+   <DeparturePosition></DeparturePosition>
+   <DepartureName>Princess Juliana Intl</DepartureName>
+   <DestinationName>Princess Juliana Intl</DestinationName>
+    <AppVersion>
+      <AppVersionMajor>10</AppVersionMajor>
+      <AppVersionBuild>60905</AppVersionBuild>
+    </AppVersion>
+    <ATCWaypoint id="TNCM">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N18° 2' 27.05000",W63° 6' 34.25933",+000012.50</WorldPosition>
+      <ICAO>
+        <ICAOIdent>TNCM</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="KICT">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N37° 38' 59.80066",W97° 25' 58.99999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>KICT</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="CYXH">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N50° 1' 7.99933",W110° 43' 15.00066",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>CYXH</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="CYGX">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N56° 21' 26.99933",W94° 42' 37.99933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>CYGX</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="CYKO">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N60° 49' 7.00066",W78° 8' 54.99999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>CYKO</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="CTP9">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N61° 39' 43.99999",W73° 19' 16.99866",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>CTP9</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="BGSF">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N67° 1' 1.08933",W50° 41' 21.56999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>BGSF</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="BIKR">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N65° 43' 53.99933",W19° 34' 21.99999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>BIKR</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="EGPB">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N59° 52' 45.06200",W1° 17' 46.44133",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>EGPB</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="EKBI">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N55° 44' 25.16000",E9° 9' 6.39933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>EKBI</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="LFAC">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N50° 57' 39.00000",E1° 57' 4.99933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>LFAC</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="LFMN">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N43° 39' 54.99999",E7° 12' 53.99999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>LFMN</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="LICR">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N38° 4' 19.00066",E15° 39' 12.99933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>LICR</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="FKKR">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N9° 20' 11.99933",E13° 22' 51.99999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>FKKR</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="VNKT">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N27° 41' 49.99933",E85° 21' 28.00000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>VNKT</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="VECC">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N22° 39' 13.59933",E88° 26' 47.70000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>VECC</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="VOPB">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N11° 38' 45.00000",E92° 44' 5.99866",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>VOPB</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="WMKD">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N3° 46' 30.76333",E103° 12' 32.74466",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>WMKD</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="WIOK">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S1° 48' 59.90000",E109° 57' 48.53733",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>WIOK</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="WADB">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S8° 32' 27.08000",E118° 41' 26.08933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>WADB</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="YTST">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S14° 5' 23.00066",E126° 22' 51.00066",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>YTST</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="YBCS">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S16° 53' 9.00000",E145° 45' 18.99933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>YBCS</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="AYMS">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S10° 41' 20.60933",E152° 50' 15.20866",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>AYMS</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="AGGH">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S9° 25' 18.00066",E160° 3' 6.00000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>AGGH</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="NVSS">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S15° 30' 20.75999",E167° 13' 16.88866",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>NVSS</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="NFFN">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S17° 45' 23.39933",E177° 26' 36.59933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>NFFN</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="NIUE">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S19° 4' 0.011111",W169° 55' 36.00000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>NIUE</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="NCRG">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S21° 12' 2.99999",W159° 47' 41.99933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>NCRG</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="NTAV">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S23° 53' 1.99933",W147° 39' 52.00000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>NTAV</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="NTGJ">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S23° 4' 59.99000",W134° 52' 59.99000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>NTGJ</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="SCIP">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S27° 9' 53.00000",W109° 25' 18.00000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>SCIP</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="SAZS">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S41° 9' 4.00000",W71° 9' 27.99933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>SAZS</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="SCCC">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S46° 34' 52.99933",W71° 41' 12.00000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>SCCC</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="SAVV">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S40° 52' 7.99933",W62° 59' 51.99933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>SAVV</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="SAEZ">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S34° 49' 19.99933",W58° 32' 9.00000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>SAEZ</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="SYCJ">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N6° 29' 56.14933",W58° 15' 15.66933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>SYCJ</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="TNCM">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N18° 2' 27.05000",W63° 6' 34.25933",+000012.50</WorldPosition>
+      <ICAO>
+        <ICAOIdent>TNCM</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+  </FlightPlan.FlightPlan>
+</SimBase.Document>

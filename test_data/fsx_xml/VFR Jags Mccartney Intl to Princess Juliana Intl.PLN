@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>MBGT to TNCM</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>25000</CruisingAlt>
+        <DepartureID>MBGT</DepartureID>
+        <DepartureLLA>N21° 26' 32.60",W71° 8' 0.28",+000013.00</DepartureLLA>
+        <DestinationID>TNCM</DestinationID>
+        <DestinationLLA>N18° 2' 22.00",W63° 7' 8.82",+000013.00</DestinationLLA>
+        <Descr>MBGT, TNCM</Descr>
+        <DeparturePosition>29</DeparturePosition>
+        <DepartureName>Jags Mccartney Intl</DepartureName>
+        <DestinationName>Princess Juliana Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="MBGT">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N21° 26' 32.60",W71° 8' 0.28",+000013.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>MBGT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TNCM">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N18° 2' 22.00",W63° 7' 8.82",+000013.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>TNCM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

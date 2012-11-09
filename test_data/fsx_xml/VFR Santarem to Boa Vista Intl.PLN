@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>SBSN to SBBV</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>6500</CruisingAlt>
+        <DepartureID>SBSN</DepartureID>
+        <DepartureLLA>S2° 25' 28.06",W54° 47' 19.26",+000198.00</DepartureLLA>
+        <DestinationID>SBBV</DestinationID>
+        <DestinationLLA>N2° 50' 27.56",W60° 42' 1.82",+000276.00</DestinationLLA>
+        <Descr>SBSN, SBBV</Descr>
+        <DeparturePosition>PARKING 2</DeparturePosition>
+        <DepartureName>Santarem</DepartureName>
+        <DestinationName>Boa Vista Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="SBSN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S2° 25' 28.06",W54° 47' 19.26",+000198.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>SBSN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="SBBV">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N2° 50' 27.56",W60° 42' 1.82",+000276.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>SBBV</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

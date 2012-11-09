@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>EFVA to ESSA</Title>
+        <FPType>IFR</FPType>
+        <RouteType>HighAlt</RouteType>
+        <CruisingAlt>35000</CruisingAlt>
+        <DepartureID>EFVA</DepartureID>
+        <DepartureLLA>N63° 2' 45.32",E21° 45' 38.07",+000019.00</DepartureLLA>
+        <DestinationID>ESSA</DestinationID>
+        <DestinationLLA>N59° 38' 15.84",E17° 54' 48.24",+000137.00</DestinationLLA>
+        <Descr>EFVA, ESSA</Descr>
+        <DeparturePosition>GATE G 8</DeparturePosition>
+        <DepartureName>Vaasa</DepartureName>
+        <DestinationName>Arlanda</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="EFVA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N63° 2' 45.32",E21° 45' 38.07",+000019.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EFVA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="D156N">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N62° 49' 16.78",E21° 55' 49.62",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>EF</ICAORegion>
+                <ICAOIdent>D156N</ICAOIdent>
+                <ICAOAirport>EFVA</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="DEMOT">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N62° 35' 33.99",E21° 46' 26.00",+000000.00</WorldPosition>
+            <ATCAirway>UY80</ATCAirway>
+            <ICAO>
+                <ICAORegion>EF</ICAORegion>
+                <ICAOIdent>DEMOT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="IPSUL">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N61° 47' 1.00",E21° 47' 24.00",+000000.00</WorldPosition>
+            <ATCAirway>UY80</ATCAirway>
+            <ICAO>
+                <ICAORegion>EF</ICAORegion>
+                <ICAOIdent>IPSUL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="PRI">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N61° 27' 52.56",E21° 47' 45.09",+000000.00</WorldPosition>
+            <ATCAirway>UY80</ATCAirway>
+            <ICAO>
+                <ICAORegion>EF</ICAORegion>
+                <ICAOIdent>PRI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TUSKU">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N61° 7' 28.99",E21° 57' 51.00",+000000.00</WorldPosition>
+            <ATCAirway>UY80</ATCAirway>
+            <ICAO>
+                <ICAORegion>EF</ICAORegion>
+                <ICAOIdent>TUSKU</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="NIRPU">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N60° 46' 27.00",E22° 8' 1.00",+000000.00</WorldPosition>
+            <ATCAirway>UY80</ATCAirway>
+            <ICAO>
+                <ICAORegion>EF</ICAORegion>
+                <ICAOIdent>NIRPU</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="RUS">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N60° 30' 54.69",E22° 15' 23.50",+000000.00</WorldPosition>
+            <ATCAirway>UY80</ATCAirway>
+            <ICAO>
+                <ICAORegion>EF</ICAORegion>
+                <ICAOIdent>RUS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="RITSA">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N60° 17' 45.99",E21° 30' 12.00",+000000.00</WorldPosition>
+            <ATCAirway>UT81</ATCAirway>
+            <ICAO>
+                <ICAORegion>EF</ICAORegion>
+                <ICAOIdent>RITSA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="RUNGA">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N59° 44' 59.01",E19° 43' 27.00",+000000.00</WorldPosition>
+            <ATCAirway>UT81</ATCAirway>
+            <ICAO>
+                <ICAORegion>ES</ICAORegion>
+                <ICAOIdent>RUNGA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="XILAN">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N59° 39' 33.51",E19° 4' 33.80",+000000.00</WorldPosition>
+            <ATCAirway>UN872</ATCAirway>
+            <ICAO>
+                <ICAORegion>ES</ICAORegion>
+                <ICAOIdent>XILAN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ESSA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N59° 38' 15.84",E17° 54' 48.24",+000137.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>ESSA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

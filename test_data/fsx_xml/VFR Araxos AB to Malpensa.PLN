@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LGRX to LIMC</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>8500</CruisingAlt>
+        <DepartureID>LGRX</DepartureID>
+        <DepartureLLA>N38° 8' 11.95",E21° 25' 28.76",+000046.00</DepartureLLA>
+        <DestinationID>LIMC</DestinationID>
+        <DestinationLLA>N45° 36' 41.68",E8° 43' 41.13",+000767.00</DestinationLLA>
+        <Descr>LGRX, LIMC</Descr>
+        <DeparturePosition>36L</DeparturePosition>
+        <DepartureName>Araxos AB</DepartureName>
+        <DestinationName>Malpensa</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LGRX">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N38° 8' 11.95",E21° 25' 28.76",+000046.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LGRX</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KFN">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N38° 6' 46.64",E20° 30' 16.86",+000057.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LG</ICAORegion>
+                <ICAOIdent>KFN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CAT">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N37° 27' 22.21",E14° 58' 9.50",+000217.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LI</ICAORegion>
+                <ICAOIdent>CAT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N36° 13' 58.73",E15° 19' 56.30",+008500.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="TRP">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N37° 53' 45.49",E12° 30' 47.50",+000025.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LI</ICAORegion>
+                <ICAOIdent>TRP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N37° 38' 7.70",E11° 30' 3.79",+008500.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N40° 3' 59.25",E10° 41' 32.05",+008500.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="WP4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N42° 31' 43.00",E9° 49' 38.88",+008500.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="BTA">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N42° 34' 24.90",E9° 28' 29.40",+000036.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LF</ICAORegion>
+                <ICAOIdent>BTA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="GEN">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N44° 25' 27.70",E9° 4' 55.50",+002915.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LI</ICAORegion>
+                <ICAOIdent>GEN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="FI35L">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N45° 32' 6.94",E8° 44' 57.15",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LI</ICAORegion>
+                <ICAOIdent>FI35L</ICAOIdent>
+                <ICAOAirport>LIMC</ICAOAirport>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LIMC">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 36' 41.68",E8° 43' 41.13",+000767.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>LIMC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>YBCS to YCKN</Title>
+        <FPType>IFR</FPType>
+        <RouteType>LowAlt</RouteType>
+        <CruisingAlt>6000</CruisingAlt>
+        <DepartureID>YBCS</DepartureID>
+        <DepartureLLA>S16° 52' 54.36",E145° 44' 57.71",+000010.00</DepartureLLA>
+        <DestinationID>YCKN</DestinationID>
+        <DestinationLLA>S15° 26' 26.97",E145° 10' 32.84",+000026.00</DestinationLLA>
+        <Descr>YBCS, YCKN</Descr>
+        <DeparturePosition>PARKING 2</DeparturePosition>
+        <DepartureName>Cairns Intl</DepartureName>
+        <DestinationName>Cooktown</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="YBCS">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S16° 52' 54.36",E145° 44' 57.71",+000010.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>YBCS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CS">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>S16° 50' 59.78",E145° 44' 39.01",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>YB</ICAORegion>
+                <ICAOIdent>CS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="DREWS">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>S16° 6' 58.99",E145° 19' 38.00",+000000.00</WorldPosition>
+            <ATCAirway>R204</ATCAirway>
+            <ICAO>
+                <ICAORegion>YB</ICAORegion>
+                <ICAOIdent>DREWS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="YCKN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S15° 26' 26.97",E145° 10' 32.84",+000026.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>YCKN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

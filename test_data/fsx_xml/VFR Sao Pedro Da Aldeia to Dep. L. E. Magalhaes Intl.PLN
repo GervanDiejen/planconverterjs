@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>SBES to SBSV</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>25000</CruisingAlt>
+        <DepartureID>SBES</DepartureID>
+        <DepartureLLA>S22° 49' 12.31",W42° 6' 0.29",+000061.00</DepartureLLA>
+        <DestinationID>SBSV</DestinationID>
+        <DestinationLLA>S12° 54' 40.67",W38° 20' 8.40",+000064.00</DestinationLLA>
+        <Descr>SBES, SBSV</Descr>
+        <DeparturePosition>7</DeparturePosition>
+        <DepartureName>Sao Pedro Da Aldeia</DepartureName>
+        <DestinationName>Dep. L. E. Magalhaes Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="SBES">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S22° 49' 12.31",W42° 6' 0.29",+000061.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>SBES</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="SBSV">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S12° 54' 40.67",W38° 20' 8.40",+000064.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>SBSV</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

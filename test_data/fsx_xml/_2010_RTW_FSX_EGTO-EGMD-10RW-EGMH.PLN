@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>EGTO to EGMH</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>3500</CruisingAlt>
+        <DepartureID>EGTO</DepartureID>
+        <DepartureLLA>N51° 21' 20.97",E0° 30' 0.88",+000436.00</DepartureLLA>
+        <DestinationID>EGMH</DestinationID>
+        <DestinationLLA>N51° 20' 23.30",E1° 21' 53.72",+000178.00</DestinationLLA>
+        <Descr>EGTO, EGMH</Descr>
+        <DeparturePosition>16</DeparturePosition>
+        <DepartureName>Rochester</DepartureName>
+        <DestinationName>Manston</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="EGTO">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N51° 21' 20.97",E0° 30' 0.88",+000436.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EGTO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="EGMD">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N50° 57' 22.00",E0° 56' 21.00",+000012.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EGMD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="MK">
+            <ATCWaypointType>NDB</ATCWaypointType>
+            <WorldPosition>N50° 59' 46.61",E2° 3' 16.20",+000010.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>LF</ICAORegion>
+                <ICAOIdent>MK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="10RW">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N51° 3' 35.38",E2° 21' 3.37",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>10RW</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="EGMH">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N51° 20' 23.30",E1° 21' 53.72",+000178.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>EGMH</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

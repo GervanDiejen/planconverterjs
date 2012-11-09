@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>SKPE to SKNV</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>25000</CruisingAlt>
+        <DepartureID>SKPE</DepartureID>
+        <DepartureLLA>N4° 48' 35.93",W75° 44' 52.02",+004418.00</DepartureLLA>
+        <DestinationID>SKNV</DestinationID>
+        <DestinationLLA>N2° 56' 34.58",W75° 17' 45.13",+001482.00</DestinationLLA>
+        <Descr>SKPE, SKNV</Descr>
+        <DeparturePosition>7</DeparturePosition>
+        <DepartureName>Matecana</DepartureName>
+        <DestinationName>Benito Salas</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="SKPE">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N4° 48' 35.93",W75° 44' 52.02",+004418.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>SKPE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="SKNV">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N2° 56' 34.58",W75° 17' 45.13",+001482.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>SKNV</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

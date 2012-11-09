@@ -1,0 +1,43 @@
+[Flightplan]
+AppVersion=9.1.40901
+title=TBPB to EGCC      
+description=TBPB, EGCC      
+type=IFR
+routetype=1
+cruising_altitude=41000
+departure_id=TBPB, N13* 04.48', W059* 29.53', +000167.00
+departure_position=09
+destination_id=EGCC, N53* 21.22', W002* 16.50', +000256.00
+departure_name=Grantley Adams Intl
+destination_name=Manchester
+alternate_name=
+waypoint.0=, TBPB, , TBPB, A, N13* 04.48', W059* 29.53', +000167.00,
+waypoint.1=KK, BUTUX, , BUTUX,  I, N18* 00.00', W045* 22.80', +000000.00,
+waypoint.2=KK, TENPA, , TENPA,  I, N21* 21.70', W021* 58.40', +000000.00,
+waypoint.3=KK, PITAB, , PITAB,  I, N30* 21.17', W016* 26.95', +000000.00,
+waypoint.4=KK, VABEM, , VABEM,  I, N36* 32.95', W013* 19.37', +000000.00,
+waypoint.5=KK, KORUL, , KORUL,  I, N44* 50.11', W006* 55.18', +000000.00,
+waypoint.6=KK, ANNET, , ANNET,  I, N49* 39.08', W004* 00.08', +000000.00,
+waypoint.7=KK, BCN, , BCN,  I, N51* 43.54', W003* 15.79', +000000.00,
+waypoint.8=KK, NOKIN, , NOKIN,  I, N53* 04.60', W002* 52.97', +000000.00,
+waypoint.9=KK, CD05R, , CD05R,  I, N53* 13.07', W002* 32.34', +000000.00,
+waypoint.10=, EGCC, , EGCC, A, N53* 21.22', W002* 16.50', +000256.00,
+
+[FSC]
+DepartAPCode=TBPB      
+DepartNum=0
+DepartID=09
+DepartType=Rwy
+DestAPCode=EGCC      
+RouteType=1
+SID=
+STAR=
+WP=1,Int,BUTUX,BUTUX,18.0000,-45.3800,0.00,68.2846,-17.046,1,17425
+WP=2,Int,TENPA,TENPA,21.3617,-21.9733,0.00,77.4553,-9.031,1,9829
+WP=3,Int,PITAB,PITAB,30.3529,-16.4492,0.00,27.7719,-6.224,1,9823
+WP=4,Int,VABEM,VABEM,36.5491,-13.3228,0.00,21.9826,-5.125,1,20402
+WP=5,Int,KORUL,KORUL,44.8352,-6.9197,0.00,28.3206,-3.252,1,18737
+WP=6,Int,ANNET,ANNET,49.6514,-4.0014,0.00,21.2982,-3.219,1,18451,UL722,20000,46000
+WP=7,Int,BCN,BRECON,51.7256,-3.2631,117.45,12.4230,-3.170,1,1768
+WP=8,Int,NOKIN,NOKIN,53.0767,-2.8828,0.00,9.5943,-3.131,1,7460
+WP=9,Fix,CD05R,CD05R,53.2178,-2.5390,0.00,55.4738,-3.131,1,70412

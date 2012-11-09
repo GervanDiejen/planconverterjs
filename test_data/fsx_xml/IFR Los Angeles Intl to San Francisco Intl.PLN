@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>KLAX to KSFO</Title>
+        <FPType>IFR</FPType>
+        <RouteType>HighAlt</RouteType>
+        <CruisingAlt>25000</CruisingAlt>
+        <DepartureID>KLAX</DepartureID>
+        <DepartureLLA>N33° 56' 22.26",W118° 24' 31.57",+000126.00</DepartureLLA>
+        <DestinationID>KSFO</DestinationID>
+        <DestinationLLA>N37° 36' 25.81",W122° 22' 49.72",+000013.00</DestinationLLA>
+        <Descr>KLAX, KSFO</Descr>
+        <DeparturePosition>GATE 101</DeparturePosition>
+        <DepartureName>Los Angeles Intl</DepartureName>
+        <DestinationName>San Francisco Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KLAX">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N33° 56' 22.26",W118° 24' 31.57",+000126.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KLAX</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="AVE">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N35° 38' 49.11",W119° 58' 42.98",+000000.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>K2</ICAORegion>
+                <ICAOIdent>AVE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="BSR">
+            <ATCWaypointType>VOR</ATCWaypointType>
+            <WorldPosition>N36° 10' 52.65",W121° 38' 31.61",+004080.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>K2</ICAORegion>
+                <ICAOIdent>BSR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KSFO">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N37° 36' 25.81",W122° 22' 49.72",+000013.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KSFO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

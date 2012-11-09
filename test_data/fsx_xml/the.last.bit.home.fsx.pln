@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+ <Descr>AceXML Document</Descr>
+ <FlightPlan.FlightPlan>
+   <Title>AYKV to TNCM</Title>
+    <FPType>IFR</FPType>
+    <CruisingAlt>41000</CruisingAlt>
+    <DepartureID>AYKV</DepartureID>
+    <DepartureLLA>S2° 34' 44.34066",E150° 48' 26.73933",+000012.50</DepartureLLA>
+    <DestinationID>TNCM</DestinationID>
+    <DestinationLLA>N18° 2' 27.05000",W63° 6' 34.25933",+000012.50</DestinationLLA>
+   <Descr>AYKV, TNCM</Descr>
+   <RouteType>Direct</RouteType>
+   <DeparturePosition></DeparturePosition>
+   <DepartureName>Kavieng</DepartureName>
+   <DestinationName>Princess Juliana Intl</DestinationName>
+    <AppVersion>
+      <AppVersionMajor>10</AppVersionMajor>
+      <AppVersionBuild>60905</AppVersionBuild>
+    </AppVersion>
+    <ATCWaypoint id="AYKV">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>S2° 34' 44.34066",E150° 48' 26.73933",+000012.50</WorldPosition>
+      <ICAO>
+        <ICAOIdent>AYKV</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="PTKK">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N7° 27' 42.66000",E151° 50' 35.27999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>PTKK</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="PGSN">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N15° 7' 8.64000",E145° 43' 45.95999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>PGSN</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="RJAW">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N24° 47' 27.96000",E141° 19' 16.61999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>RJAW</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="RJAA">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N35° 45' 52.99933",E140° 23' 10.99999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>RJAA</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="UHSS">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N46° 53' 18.00000",E142° 42' 59.99000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>UHSS</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="UHPP">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N53° 10' 11.99933",E158° 27' 5.99933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>UHPP</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="PASY">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N52° 42' 44.64000",E174° 6' 49.31999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>PASY</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="PASN">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N57° 10' 2.64000",W170° 13' 13.98000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>PASN</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="PAGA">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N64° 44' 10.23933",W156° 56' 14.68933",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>PAGA</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="PATA">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N65° 10' 27.96000",W152° 6' 33.95999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>PATA</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="CYVQ">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N65° 16' 57.30000",W126° 48' 1.31999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>CYVQ</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="CYPY">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N58° 46' 2.00000",W111° 7' 2.00066",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>CYPY</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="CYGM">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N50° 37' 40.99999",W97° 2' 32.00066",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>CYGM</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="KORD">
+      <ATCWaypointType>Intersection</ATCWaypointType>
+      <WorldPosition>N41° 58' 47.27999",W87° 54' 15.30000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>KORD</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="KSUA">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N27° 10' 54.09866",W80° 13' 15.90000",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>KSUA</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="KPBI">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N26° 40' 59.37933",W80° 5' 44.13999",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>KPBI</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="MDST">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N19° 24' 21.92999",W70° 36' 16.88066",+041000.00</WorldPosition>
+      <ICAO>
+        <ICAOIdent>MDST</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+    <ATCWaypoint id="TNCM">
+      <ATCWaypointType>Airport</ATCWaypointType>
+      <WorldPosition>N18° 2' 27.05000",W63° 6' 34.25933",+000012.50</WorldPosition>
+      <ICAO>
+        <ICAOIdent>TNCM</ICAOIdent>
+      </ICAO>
+    </ATCWaypoint>
+  </FlightPlan.FlightPlan>
+</SimBase.Document>

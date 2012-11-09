@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>TNCM to TJBQ</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>6500</CruisingAlt>
+        <DepartureID>TNCM</DepartureID>
+        <DepartureLLA>N18° 2' 30.60",W63° 6' 29.20",+000013.00</DepartureLLA>
+        <DestinationID>TJBQ</DestinationID>
+        <DestinationLLA>N18° 29' 58.41",W67° 6' 49.95",+000237.00</DestinationLLA>
+        <Descr>TNCM, TJBQ</Descr>
+        <DeparturePosition>PARKING 1</DeparturePosition>
+        <DepartureName>Princess Juliana Intl</DepartureName>
+        <DestinationName>Rafael Hernandez</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="TNCM">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N18° 2' 30.60",W63° 6' 29.20",+000013.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>TNCM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TJBQ">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N18° 29' 58.41",W67° 6' 49.95",+000237.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>TJBQ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

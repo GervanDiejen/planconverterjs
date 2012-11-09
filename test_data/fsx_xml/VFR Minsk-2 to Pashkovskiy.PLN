@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>UMMS to URKK</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>3500</CruisingAlt>
+        <DepartureID>UMMS</DepartureID>
+        <DepartureLLA>N53° 53' 17.99",E28° 2' 13.07",+000669.00</DepartureLLA>
+        <DestinationID>URKK</DestinationID>
+        <DestinationLLA>N45° 2' 35.02",E39° 12' 10.22",+000118.00</DestinationLLA>
+        <Descr>UMMS, URKK</Descr>
+        <DeparturePosition>GATE 16</DeparturePosition>
+        <DepartureName>Minsk-2</DepartureName>
+        <DestinationName>Pashkovskiy</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="UMMS">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N53° 53' 17.99",E28° 2' 13.07",+000669.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>UMMS</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="URKK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45° 2' 35.02",E39° 12' 10.22",+000118.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>URKK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

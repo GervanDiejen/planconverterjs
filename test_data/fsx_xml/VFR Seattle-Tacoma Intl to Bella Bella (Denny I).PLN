@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>KSEA to CYJQ</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>30000</CruisingAlt>
+        <DepartureID>KSEA</DepartureID>
+        <DepartureLLA>N47° 25' 53.58",W122° 18' 28.83",+000433.00</DepartureLLA>
+        <DestinationID>CYJQ</DestinationID>
+        <DestinationLLA>N52° 8' 9.26",W128° 3' 18.68",+000162.00</DestinationLLA>
+        <Descr>KSEA, CYJQ</Descr>
+        <DeparturePosition>34R</DeparturePosition>
+        <DepartureName>Seattle-Tacoma Intl</DepartureName>
+        <DestinationName>Bella Bella (Denny I)</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KSEA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N47° 25' 53.58",W122° 18' 28.83",+000433.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>KSEA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CYJQ">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N52° 8' 9.26",W128° 3' 18.68",+000162.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>CYJQ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

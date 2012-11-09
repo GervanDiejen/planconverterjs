@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>SEQU to SBCZ</Title>
+        <FPType>VFR</FPType>
+        <CruisingAlt>35000</CruisingAlt>
+        <DepartureID>SEQU</DepartureID>
+        <DepartureLLA>S0° 9' 15.38",W78° 29' 10.40",+009228.00</DepartureLLA>
+        <DestinationID>SBCZ</DestinationID>
+        <DestinationLLA>S7° 36' 1.94",W72° 45' 32.28",+000637.00</DestinationLLA>
+        <Descr>SEQU, SBCZ</Descr>
+        <DeparturePosition>35</DeparturePosition>
+        <DepartureName>Mariscal Sucre Intl</DepartureName>
+        <DestinationName>Cruzeiro Do Sul-Intl</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>10</AppVersionMajor>
+            <AppVersionBuild>61637</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="SEQU">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S0° 9' 15.38",W78° 29' 10.40",+009228.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>SEQU</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="SBCZ">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S7° 36' 1.94",W72° 45' 32.28",+000637.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>SBCZ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
