@@ -30,8 +30,7 @@ exports.post = function(req, res, next) {
                     console.log('post processor returned ' + err.code);
                     next(new Error('unable to parse file'));
                 } else {
-                    console.log('stdout: ' + stdout);
-                    res.send(stdout);
+                    res.send(JSON.parse(stdout));
                 }
             });
 };
