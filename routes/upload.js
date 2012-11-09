@@ -1,4 +1,9 @@
-/* /upload */
+/*
+ * Routes for /upload of the application.
+ *
+ * Copyright (c) 2012, Klas Björkqvist
+ * See COPYING for license information.
+ */
 
 var fs = require('fs'),
     exec = require('child_process').exec,
