@@ -65,7 +65,7 @@ class wpt_t:
         json += '"icao" : "%s",\n' % self.icao;
         json += '"type" : "%s",\n' % self.type;
         json += '"latitude" : "%f",\n' % self.latitude;
-        json += '"longitude" : "%f",\n' % self.longitude;
+        json += '"longitude" : "%f"\n' % self.longitude;
         json += '}';
         return json;
 
@@ -90,9 +90,10 @@ class plan_t:
         json  = '{\n';
         json += '"title" : "%s",\n' % self.title;
         json += '"wpts" : [\n';
-        for wpt in self.wpts:
-            json += "%s,\n" % wpt.to_json();
-        json += '],\n';
+        for i in range(0,len(self.wpts)):
+            json += "%s%s\n" % (self.wpts[i].to_json(),
+                "," if i < len(self.wpts)-1 else "");
+        json += ']\n';
         json += '}\n';
         return json;
 
