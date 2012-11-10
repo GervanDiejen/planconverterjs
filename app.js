@@ -48,7 +48,7 @@ app.configure(function(){
     app.use(express.limit('10mb'));
     app.use(express.bodyParser());
     app.use(express.methodOverride());
-
+    app.use(allow_cross_domain);
     app.use(app.router);
     app.use(express.static(__dirname + '/public'));
 });
@@ -66,3 +66,12 @@ app.post('/upload', routes.upload.post);
 app.listen(app.get('port'), function() {
     console.log('express listening on port ' + app.get('port'));
 });
+
+
+function allow_cross_domain(req, res, next) {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'GET,POST');
+    res.header('Access-Control-Allow-Headers', 'Content-Type');
+
+    next();
+};
