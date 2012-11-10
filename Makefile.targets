@@ -1,0 +1,7 @@
+
+# General targets
+$(DIRS):
+	@$(MKDIR) $@
+
+print.%.clean:
+	@$(ECHO) "Cleaning $*."

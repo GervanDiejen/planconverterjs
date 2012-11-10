@@ -1,0 +1,29 @@
+
+# Default target
+.PHONY: all
+all:
+
+# Directories
+PUBLICDIR	:= $(TOP)/public
+JSPUBLIC  	:= $(PUBLICDIR)/js
+
+DIRS	:= $(PUBLICDIR) $(JSPUBLIC)
+
+# track what needs to be cleaned in sub-makefiles
+CLEAN :=
+
+# Tools
+RM   	:= rm
+RMDIR	:= rm -d
+CAT  	:= cat
+MKDIR	:= mkdir -p
+ECHO	:= echo
+
+# Canned recipes
+define generate-js =
+@$(ECHO) "Generate $(notdir $@)."
+@$(RM) -f $@
+@for f in $^; do \
+	$(CAT) "$$f" >> "$@"; \
+	done
+endef
