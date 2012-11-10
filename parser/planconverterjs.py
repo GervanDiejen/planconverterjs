@@ -105,14 +105,19 @@ class plan_t:
 def parse_latlon(l_str):
     l = 0.0;
     mod = 1.0;
-    match = re.search(r"([NESW])(\d+).\s+(\d+(\.\d+)?)'\s*(\d+(\.\d+)?)?\"?", l_str);
+    match = re.search(
+            r"(?P<dir>[NESW])"
+            r"(?P<degs>\d+)."
+            r"\s+(?:(?P<mins>\d+(?:[\.,]\d+)?)')"
+            r"\s+(?:(?P<secs>\d+(?:[\.,]\d+)?)\")?"
+            , l_str);
     if match:
-        if match.group(1) == "S" or match.group(1) == "W":
+        if match.group('dir') == "S" or match.group('dir') == "W":
             mod = -1.0;
-        l = float(match.group(2));
-        l += float(match.group(3)) / 60.0;
-        if match.group(5):
-            l += float(match.group(5)) / 3600.0;
+        l = float(match.group('degs'));
+        l += float(re.sub(',', '.', match.group('mins'))) / 60.0;
+        if match.group('secs'):
+            l += float(re.sub(',', '.', match.group('secs'))) / 3600.0;
     return mod * l;
 
 #
@@ -140,11 +145,15 @@ def parse_fsx(tree):
                 # that is specified, though it will probably always be the
                 # same as the element id.
                 wpt.icao = w.findtext('./ICAO/ICAOIdent', default=wpt.icao);
-            worldpos = w.findtext('WorldPosition', default='N0* 0\' 0.0",E0* 0\' 0.0",+0').split(',');
+            worldpos = w.findtext('WorldPosition', default='N0* 0\' 0.0",E0* 0\' 0.0",+0');
+            match = re.match(r"(?P<lat>[NS].+),\s*(?P<lon>[EW].+),\s*[\+\-]", worldpos);
+
+            if not match:
+                continue;
 
             # parse the latitude and longitude strings
-            wpt.latitude = parse_latlon(worldpos[0]);
-            wpt.longitude = parse_latlon(worldpos[1]);
+            wpt.latitude = parse_latlon(match.group('lat'));
+            wpt.longitude = parse_latlon(match.group('lon'));
 
             plan.append(wpt);
 
