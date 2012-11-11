@@ -32,10 +32,10 @@ planconverterjs.waypoint = function(obj) {
             a_lon = this.longitude  * Math.PI / 180.0,
             b_lat = b.latitude      * Math.PI / 180.0,
             b_lon = b.longitude     * Math.PI / 180.0;
-        var d_lon = Math.abs(a_lon - b_lon);
-        var c_ang = (Math.acos(Math.sin(a_lat)*Math.sin(b_lat) +
-                Math.cos(a_lat)*Math.cos(a_lat)*Math.cos(d_lon)) *
-                planconverterjs.__helpers.constants.EARTH_RADIUS);
+        var d_lon = b_lon - a_lon;
+        var c_ang = Math.acos(Math.sin(a_lat)*Math.sin(b_lat) +
+                Math.cos(a_lat)*Math.cos(b_lat)*Math.cos(d_lon));
+        return c_ang * planconverterjs.__helpers.constants.EARTH_RADIUS;
     }
 
     /* return the heading between this waypoint and the waypoint b */
