@@ -35,11 +35,12 @@
 
 var express = require('express');
 var app = express();
+var config = require('./config.js');
 
 var routes = require('./routes');
 
 app.configure(function(){
-    app.set('port', process.env.PORT || 3000);
+    app.set('port', config.server.port);
     app.set('views', __dirname + '/views');
     app.set('view engine', 'jade');
     app.use(express.favicon());
@@ -63,7 +64,7 @@ app.configure('production', function(){
 app.get('/', routes.index.get);
 app.post('/plntojson', routes.plntojson.post);
 
-app.listen(app.get('port'), function() {
+app.listen(config.server.port, function() {
     console.log('express listening on port ' + app.get('port'));
 });
 
