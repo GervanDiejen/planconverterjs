@@ -24,8 +24,8 @@ planconverterjs.__helpers = {
             return ret;
         },
         /* create a jQuery table cell element with the provided data */
-        make_cell : function(data) {
-            var cell = $("<td>", {
+        make_cell : function(data, th) {
+            var cell = $(th === undefined ? "<td>" : "<th>", {
                 "class" : planconverterjs.__helpers.constants.FLIGHT_PLAN_CLASS_NAME
             });
             cell.html(data);

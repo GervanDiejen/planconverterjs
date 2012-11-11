@@ -21,7 +21,7 @@ planconverterjs.waypoint = function(obj) {
     /* return the longitude as a nicer formatted string */
     this.longitude_string = function() {
         var l = parseFloat(this.longitude);
-        var ret = (l >= 0.0 ? "N" : "S");
+        var ret = (l >= 0.0 ? "E" : "W");
         ret += this.__write_coord_nums(Math.abs(l))
         return ret;
     }
@@ -72,7 +72,7 @@ planconverterjs.waypoint = function(obj) {
         if (prev !== undefined) {
             dist = prev.distance(this);
         }
-        row.append(planconverterjs.__helpers.functions.make_cell(dist));
+        row.append(planconverterjs.__helpers.functions.make_cell(dist.toFixed(1)));
 
         row.append(planconverterjs.__helpers.functions.make_cell(this.latitude_string()));
         row.append(planconverterjs.__helpers.functions.make_cell(this.longitude_string()));
