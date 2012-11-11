@@ -1,7 +1,27 @@
 extends layout
 
+block headers
+  script(src="http://code.jquery.com/jquery-1.8.2.js")
+  script(src="js/libplanconverter.js")
+
 block content
+  header
+    h3 planconverterjs demo application
   #main
-    form(method='post', enctype='multipart/form-data', action='upload')
+    form(id="upload_form",enctype='multipart/form-data')
       input(type='file', name='f')
-      input(type='submit', value='Upload')
+      input(type='button', id="upload_button", value='Upload')
+  #ans
+  script(type="text/javascript")
+    $("#upload_button").click(function() {
+      $("#ans").html("")
+      planconverterjs.get_data($("#upload_form")[0],
+        function(fp,err) {
+          if (err !== null) {
+            alert("error");
+          } else {
+            $("#ans").append(fp.to_table("table"));
+          }
+        }
+      );
+    });
