@@ -5,7 +5,7 @@ planconverterjs.__helpers = {
         EARTH_RADIUS : 3440.07, /* earth radius in nm */
         FLIGHT_PLAN_CLASS_NAME : "flightplan",
         FLIGHT_PLAN_TABLE_COLS : 6,
-        SERVER_URL : "http://localhost:3000/upload"
+        SERVER_URL : "http://localhost:3000/plntojson"
     },
     functions : {
         /* helper function to write coordinate numbers in a nicer format */

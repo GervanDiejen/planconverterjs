@@ -61,7 +61,7 @@ app.configure('production', function(){
 });
 
 app.get('/', routes.index.get);
-app.post('/upload', routes.upload.post);
+app.post('/plntojson', routes.plntojson.post);
 
 app.listen(app.get('port'), function() {
     console.log('express listening on port ' + app.get('port'));

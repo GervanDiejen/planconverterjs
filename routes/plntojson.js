@@ -1,5 +1,5 @@
 /*
- * Routes for /upload of the application.
+ * Routes for /pln2json of the application.
  *
  * Copyright (c) 2012, Klas Björkqvist
  * See COPYING for license information.
@@ -10,11 +10,9 @@ var fs = require('fs'),
     config = require('../config.js');
 
 /*
- * POST to /upload
+ * POST to /plntojson
  */
 exports.post = function(req, res, next) {
-    console.log('\nuploaded %s to %s', req.files.f.filename, req.files.f.path);
-
     var child = exec(config.command_name + " " + req.files.f.path,
             {
                 encoding : 'utf-8',
