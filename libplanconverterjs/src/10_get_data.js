@@ -4,7 +4,9 @@ planconverterjs.get_data = function(form, callback) {
     var formdata = new FormData(form);
 
     $.ajax({
-        url: planconverterjs.__helpers.constants.SERVER_URL,
+        url: planconverterjs.config.host + ":" +
+             planconverterjs.config.external_port +
+             planconverterjs.__helpers.constants.PLN_TO_JSON_ACTION,
         type: "POST",
         data: formdata,
         cache: false,

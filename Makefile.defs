@@ -3,6 +3,11 @@
 .PHONY: all
 all:
 
+# default port and hostnames
+HOST		?= http://localhost
+PORT		?= 3000
+EXT_PORT	?= $(PORT)
+
 # Directories
 PUBLICDIR	:= $(TOP)/public
 JSPUBLIC  	:= $(PUBLICDIR)/js
