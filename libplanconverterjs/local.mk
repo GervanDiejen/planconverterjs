@@ -9,7 +9,7 @@ d				:= $(dir)
 NAME_$(d)=libplanconverter.js
 
 SRCDIR_$(d)		:= $(d)/src
-JSFILES_$(d) 	:= $(shell find $(SRCDIR_$(d)) -name "*.js")
+JSFILES_$(d) 	:= $(shell find $(SRCDIR_$(d)) -name "*.js" | sort)
 
 all: $(JSPUBLIC)/$(NAME_$(d))
 

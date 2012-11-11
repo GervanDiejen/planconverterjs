@@ -5,7 +5,7 @@ include $(TOP)/Makefile.defs
 
 # include libplanconverterjs
 dir := libplanconverterjs
-include $(dir)/Makefile
+include $(dir)/local.mk
 
 # clean everything
 .PHONY: clean $(CLEAN) $(addsuffix .clean, $(DIRS))
