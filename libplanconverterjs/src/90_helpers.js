@@ -12,8 +12,8 @@ planconverterjs.__helpers = {
         write_coord_nums : function(l) {
             var ret = "";
             /* degrees */
-            ret += Math.floor(lat) + "*";
-            l -= Math.floor(lat);
+            ret += Math.floor(l) + "*";
+            l -= Math.floor(l);
 
             /* minutes */
             ret += " " + Math.floor(l * 60.0) + "'";
