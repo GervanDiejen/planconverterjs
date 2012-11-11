@@ -108,8 +108,8 @@ def parse_latlon(l_str):
     match = re.search(
             r"(?P<dir>[NESW])"
             r"(?P<degs>\d+)."
-            r"\s+(?:(?P<mins>\d+(?:[\.,]\d+)?)')"
-            r"\s+(?:(?P<secs>\d+(?:[\.,]\d+)?)\")?"
+            r"(?:\s+(?P<mins>\d+(?:[\.,]\d+)?)')"
+            r"(?:\s+(?P<secs>\d+(?:[\.,]\d+)?)\")?"
             , l_str);
     if match:
         if match.group('dir') == "S" or match.group('dir') == "W":
