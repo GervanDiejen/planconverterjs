@@ -22,9 +22,8 @@ $(JSPUBLIC)/$(NAME_$(d)): $(JSFILES_$(d)) $(addprefix $(GENDIR_$(d))/,$(JSGEN_$(
 $(GENDIR_$(d))/config.js: | $(GENDIR_$(d))
 	@$(RM) -f "$@"
 	@$(ECHO) "planconverterjs.config = {};" >> "$@"
-	@$(ECHO) "planconverterjs.config.host = '$(HOST)';" >> "$@"
 	@$(ECHO) "planconverterjs.config.port = $(PORT);" >> "$@"
-	@$(ECHO) "planconverterjs.config.external_port = $(EXT_PORT);" >> "$@"
+	@$(ECHO) "planconverterjs.config.host = '$(HOST)';" >> "$@"
 
 .SECONDEXPANSION:
 CLEAN := $(CLEAN) $(d).clean

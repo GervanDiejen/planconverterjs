@@ -4,9 +4,8 @@
 all:
 
 # default port and hostnames
-HOST		?= http://localhost
 PORT		?= 3000
-EXT_PORT	?= $(PORT)
+HOST		?= http://localhost:$(PORT)
 
 # Directories
 PUBLICDIR	:= $(TOP)/public
