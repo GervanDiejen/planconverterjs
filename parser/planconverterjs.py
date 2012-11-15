@@ -35,6 +35,7 @@
 import sys
 import re
 import xml.etree.ElementTree as ET;
+import math
 
 #
 # Try to parse the file given by filename as an XML file.
@@ -60,14 +61,39 @@ class wpt_t:
     #
     # Return a string describing this waypoint in JSON format
     #
-    def to_json(self):
+    def to_json(self,prev=None):
         json  = '{\n';
         json += '"icao" : "%s",\n' % self.icao;
         json += '"type" : "%s",\n' % self.type;
         json += '"latitude" : "%f",\n' % self.latitude;
-        json += '"longitude" : "%f"\n' % self.longitude;
+        json += '"longitude" : "%f,"\n' % self.longitude;
+        json += '"distance" : "%.1f,"\n' % (0. if prev is None else distance(prev,self));
+        json += '"heading" : "%d"\n' % (0 if prev is None else heading(prev,self));
         json += '}';
         return json;
+
+
+EARTH_RADIUS = 3440.07;
+def distance(a, b):
+    a_lat = math.radians(a.latitude);
+    b_lat = math.radians(b.latitude);
+    d_lon = math.radians(b.longitude) - math.radians(a.longitude);
+    return EARTH_RADIUS * math.acos(math.sin(a_lat) * math.sin(b_lat) +
+            math.cos(a_lat) * math.cos(b_lat) * math.cos(d_lon));
+
+def heading(a, b):
+    a_lat = math.radians(a.latitude);
+    b_lat = math.radians(b.latitude);
+    d_lon = math.radians(b.longitude) - math.radians(a.longitude);
+
+    y = math.sin(d_lon) * math.cos(b_lat);
+    x = math.cos(a_lat) * math.sin(b_lat) - \
+        math.sin(a_lat) * math.cos(b_lat) * math.cos(d_lon);
+
+    head = math.degrees(math.atan2(y, x));
+    head = int(head + 360) % 360;
+    return head;
+
 
 #
 # plan_t is a flight plan
@@ -91,7 +117,7 @@ class plan_t:
         json += '"title" : "%s",\n' % self.title;
         json += '"wpts" : [\n';
         for i in range(0,len(self.wpts)):
-            json += "%s%s\n" % (self.wpts[i].to_json(),
+            json += "%s%s\n" % (self.wpts[i].to_json(None if i == 0 else self.wpts[i-1]),
                 "," if i < len(self.wpts)-1 else "");
         json += ']\n';
         json += '}\n';
