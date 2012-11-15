@@ -66,8 +66,8 @@ class wpt_t:
         json += '"icao" : "%s",\n' % self.icao;
         json += '"type" : "%s",\n' % self.type;
         json += '"latitude" : "%f",\n' % self.latitude;
-        json += '"longitude" : "%f,"\n' % self.longitude;
-        json += '"distance" : "%.1f,"\n' % (0. if prev is None else distance(prev,self));
+        json += '"longitude" : "%f",\n' % self.longitude;
+        json += '"distance" : "%.1f",\n' % (0. if prev is None else distance(prev,self));
         json += '"heading" : "%d"\n' % (0 if prev is None else heading(prev,self));
         json += '}';
         return json;
