@@ -9,10 +9,30 @@ block content
     h3 planconverterjs demo application
   #main
     form(id="upload_form",enctype='multipart/form-data')
-      input(type='file', name='f')
-      input(type='button', id="upload_button", value='Upload')
-  #ans
+      p
+        | Load flight plan: 
+        input(type='file', name='f')
+        input(type='button', id="upload_button", value='Upload')
+
+  #answer
+    h3 flight plan
+    #ans
+    form(id="fp_form", action='#{host}/jsontopln', method='POST')
+      p
+        | FP type: 
+        select(name='fs')
+          option(value='fsx') fsx
+          option(value='fs9') fs9
+        br
+        | Filename 
+        input(type='text', name='fn', value='plan.pln')
+        br
+        input(type='hidden', name='fp', id='fp_form_fp')
+        input(type='submit', id='fp_submit', value='Download')
+
+
   script(type="text/javascript")
+    var global_fp = null;
     $("#upload_button").click(function() {
       $("#ans").html("")
       planconverterjs.get_data($("#upload_form")[0],
@@ -21,7 +41,11 @@ block content
             alert("error");
           } else {
             $("#ans").append(fp.to_table("table"));
+            global_fp = fp;
           }
         }
       );
+    });
+    $("#fp_form").submit(function () {
+      $("#fp_form_fp").val(JSON.stringify(global_fp));
     });
