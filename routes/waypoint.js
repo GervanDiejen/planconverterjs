@@ -12,7 +12,7 @@ var mongo = require('mongoskin'),
  * GET from /waypoint
  */
 exports.get = function(req, res, next) {
-  ans = {};
+  ans = [];
   icaos = req.query.icao.split(',');
   rems = icaos.length;
 
@@ -28,11 +28,7 @@ exports.get = function(req, res, next) {
         next(new Error('unable to get waypoint'));
       } else {
         cursor.toArray(function (err,docs) {
-          if (docs.length > 1) {
-            ans[icao] = docs;
-          } else {
-            ans[icao] = docs[0];
-          }
+          ans.push(docs);
           console.log('ans: ' + ans);
           rems--;
           if (rems <= 0) {
