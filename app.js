@@ -57,6 +57,7 @@ app.use(express.errorHandler());
 app.get('/', routes.index.get);
 app.post('/plntojson', routes.plntojson.post);
 app.post('/jsontopln', routes.jsontopln.post);
+app.get('/waypoint', routes.waypoint.get);
 
 app.listen(config.server.port, function() {
     console.log('express listening on port ' + app.get('port'));
