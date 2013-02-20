@@ -15,6 +15,16 @@ block content
         input(type='file', name='f')
         input(type='button', id="upload_button", value='Upload')
 
+  #main2
+    form(id="enter_form")
+      p
+        | Enter name:
+        input(type='text', id='enter_name_text', name='n')
+      p
+        | Enter flight plan:
+        input(type='text', id='enter_fpl_text', name='f')
+        input(type='button', id="enter_button", value='Load')
+
   #answer
     h3 flight plan
     #ans
@@ -48,6 +58,15 @@ block content
             $("#ans").append(linkelem);
             global_fp = fp;
           }
+        }
+      );
+    });
+    $("#enter_button").click(function() {
+      $("#ans").html("")
+      planconverterjs.create_flightplan($("#enter_name_text").val(), $("#enter_fpl_text").val(),
+        function(fp) {
+          $("#ans").append(fp.to_table("table"));
+          global_fp = fp;
         }
       );
     });

@@ -1,0 +1,36 @@
+extends layout
+
+block headers
+  script(src="http://code.jquery.com/jquery-1.8.2.js")
+  script(src="#{host}/js/libplanconverter.js")
+
+block content
+  header
+    h3 planconverterjs waypoint demo
+  #main
+    form(id="icao_entry")
+      p
+        | Get waypoint: 
+        input(type='text', id='icao', name='icao')
+        input(type='button', id="get_button", value='Get')
+
+  #answer
+    h3 waypoint information
+    #ans
+
+
+  script(type="text/javascript")
+    var global_fp = null;
+    $("#get_button").click(function() {
+      $("#ans").html("");
+      planconverterjs.get_waypoint($("#icao").val(),
+        function(waypoint,err,nil) {
+          if (err !== null) {
+            alert("unable to find waypoint, or something: " + err);
+          } else {
+            console.log(waypoint);
+          }
+        },
+        null
+      );
+    });
