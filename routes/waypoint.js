@@ -12,9 +12,9 @@ var mongo = require('mongoskin'),
  * GET from /waypoint
  */
 exports.get = function(req, res, next) {
-  ans = [];
-  icaos = req.query.icao.split(',');
-  rems = icaos.length;
+  var ans = [];
+  var icaos = req.query.icao.split(',');
+  var rems = icaos.length;
 
   console.log('icaos: ' + icaos);
   console.log('rems: ' + rems);
@@ -29,7 +29,6 @@ exports.get = function(req, res, next) {
       } else {
         cursor.toArray(function (err,docs) {
           ans.push(docs);
-          console.log('ans: ' + ans);
           rems--;
           if (rems <= 0) {
             res.send(ans);
