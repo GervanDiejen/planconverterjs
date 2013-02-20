@@ -2,10 +2,11 @@
 /* helpers */
 planconverterjs.__helpers = {
     constants : {
-        EARTH_RADIUS : 3440.07, /* earth radius in nm */
+        EARTH_RADIUS : 3438.145, /* earth radius in nm */
         FLIGHT_PLAN_CLASS_NAME : "flightplan",
         FLIGHT_PLAN_TABLE_COLS : 6,
         PLN_TO_JSON_ACTION : "/plntojson",
+        GET_WAYPOINTS_ACTION : "/waypoint",
     },
     functions : {
         /* helper function to write coordinate numbers in a nicer format */

@@ -1,0 +1,5 @@
+
+planconverterjs.__data = {
+  waypoints : {},
+};
+

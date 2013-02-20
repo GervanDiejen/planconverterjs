@@ -9,6 +9,7 @@ planconverterjs.waypoint = function(obj) {
     this.type = obj.type || 'User';
     this.latitude = parseFloat(obj.latitude) || 0.0;
     this.longitude = parseFloat(obj.longitude) || 0.0;
+    this.data = obj.data || null;
 
     /* return the latitude as a nicer formatted string */
     this.latitude_string = function() {
@@ -60,7 +61,7 @@ planconverterjs.waypoint = function(obj) {
         return head;
     }
 
-    this.to_row = function(prev) {
+    this.to_row = function(acc, prev) {
         var row = $("<tr/>", {
             "class" : planconverterjs.__helpers.constants.FLIGHT_PLAN_CLASS_NAME
         });
@@ -79,6 +80,8 @@ planconverterjs.waypoint = function(obj) {
         }
         row.append(planconverterjs.__helpers.functions.make_cell(dist.toFixed(1)));
 
+        row.append(planconverterjs.__helpers.functions.make_cell(acc.toFixed(1)));
+
         row.append(planconverterjs.__helpers.functions.make_cell(this.latitude_string()));
         row.append(planconverterjs.__helpers.functions.make_cell(this.longitude_string()));
 
@@ -89,4 +92,22 @@ planconverterjs.waypoint = function(obj) {
     /* helper function to write coordinate numbers in a nicer format */
     this.__write_coord_nums =
         planconverterjs.__helpers.functions.write_coord_nums;
+}
+
+
+planconverterjs.get_waypoint = function(icao, callback, cb_data) {
+  console.log("Get icao: " + icao);
+  if (undefined === planconverterjs.__data.waypoints[icao]) {
+    planconverterjs.__get_waypoints(icao, function(icaos, err) {
+      if (err) {
+        callback(null, err, cb_data);
+      } else if ($.inArray(icao, icaos) < 0) {
+        callback(null, "icao not in returned icaos", cb_data);
+      } else {
+        callback(planconverterjs.__data.waypoints[icao], null, cb_data);
+      }
+    });
+  } else {
+    callback(planconverterjs.__data.waypoints[icao], null, cb_data);
+  }
 }

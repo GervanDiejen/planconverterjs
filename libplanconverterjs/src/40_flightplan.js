@@ -40,14 +40,17 @@ planconverterjs.flightplan = function(title) {
         header2.append(planconverterjs.__helpers.functions.make_cell("ID", "th"));
         header2.append(planconverterjs.__helpers.functions.make_cell("Heading", "th"));
         header2.append(planconverterjs.__helpers.functions.make_cell("Distance", "th"));
+        header2.append(planconverterjs.__helpers.functions.make_cell("Accumulated", "th"));
         header2.append(planconverterjs.__helpers.functions.make_cell("Latitude", "th"));
         header2.append(planconverterjs.__helpers.functions.make_cell("Longitude", "th"));
         table.append(header2);
         
         /* add each waypoint on a row */
-        table.append(this.wpts[0].to_row());
+        acc = 0.0;
+        table.append(this.wpts[0].to_row(acc));
         for (var i = 1; i < this.wpts.length; i++) {
-            table.append(this.wpts[i].to_row(this.wpts[i-1]));
+            acc = acc + this.wpts[i-1].distance(this.wpts[i]);
+            table.append(this.wpts[i].to_row(acc, this.wpts[i-1]));
         }
         return table;
     }
@@ -71,3 +74,30 @@ planconverterjs.flightplan = function(title) {
     }
 }
 
+planconverterjs.create_flightplan = function(title,str,cb) {
+  var pln = str.split(' ');
+  var rem = pln.length;
+  var wpts = {};
+  var i = 0;
+  for (; i < pln.length; i++) {
+    planconverterjs.get_waypoint(pln[i],
+        function(w,e,d) {
+          wpts[d] = w;
+          rem--;
+//          console.log('Waypoint: ' + w.icao + " d " + d + " rem " + rem);
+          if (rem <= 0) {
+            var fp = new planconverterjs.flightplan(title);
+            for (var j = 0; j < pln.length; j++) {
+              if (wpts[j] != null) {
+                fp.append_wpt(wpts[j]);
+              } else {
+                console.log('Airport not found: ' + pln[j])
+              }
+            }
+            cb(fp);
+          }
+        },
+        i);
+
+  }
+}
