@@ -7,7 +7,8 @@
         "url" : "https://github.com/klasbj/planconverterjs.git"
     },
     "dependencies" : {
-        "express"   : "3.x",
-        "jade"      : "latest"
+        "express"         : "3.x",
+        "multer"          : "latest",
+        "jade"            : "latest"
     }
 }
