@@ -36,6 +36,7 @@ import sys
 import re
 import xml.etree.ElementTree as ET;
 import math
+from geographiclib.geodesic import Geodesic
 
 #
 # Try to parse the file given by filename as an XML file.
@@ -73,27 +74,15 @@ class wpt_t:
         return json;
 
 
-EARTH_RADIUS = 3440.07;
+
+
 def distance(a, b):
-    a_lat = math.radians(a.latitude);
-    b_lat = math.radians(b.latitude);
-    d_lon = math.radians(b.longitude) - math.radians(a.longitude);
-    return EARTH_RADIUS * math.acos(math.sin(a_lat) * math.sin(b_lat) +
-            math.cos(a_lat) * math.cos(b_lat) * math.cos(d_lon));
+    x = Geodesic.WGS84.Inverse(a.latitude, a.longitude, b.latitude, b.longitude)
+    return x['s12'] / 1852.0 # m to NM
 
 def heading(a, b):
-    a_lat = math.radians(a.latitude);
-    b_lat = math.radians(b.latitude);
-    d_lon = math.radians(b.longitude) - math.radians(a.longitude);
-
-    y = math.sin(d_lon) * math.cos(b_lat);
-    x = math.cos(a_lat) * math.sin(b_lat) - \
-        math.sin(a_lat) * math.cos(b_lat) * math.cos(d_lon);
-
-    head = math.degrees(math.atan2(y, x));
-    head = int(head + 360) % 360;
-    return head;
-
+    x = Geodesic.WGS84.Inverse(a.latitude, a.longitude, b.latitude, b.longitude)
+    return (x['azi1'] + 360) % 360
 
 #
 # plan_t is a flight plan

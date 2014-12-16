@@ -28,19 +28,22 @@ planconverterjs.waypoint = function(obj) {
 
     /* return the distance between this waypoint and the waypoint b */
     this.distance = function(b) {
-        var a_lat = this.latitude   * Math.PI / 180.0,
+        /*var a_lat = this.latitude   * Math.PI / 180.0,
             a_lon = this.longitude  * Math.PI / 180.0,
             b_lat = b.latitude      * Math.PI / 180.0,
             b_lon = b.longitude     * Math.PI / 180.0;
         var d_lon = b_lon - a_lon;
         var c_ang = Math.acos(Math.sin(a_lat)*Math.sin(b_lat) +
                 Math.cos(a_lat)*Math.cos(b_lat)*Math.cos(d_lon));
-        return c_ang * planconverterjs.__helpers.constants.EARTH_RADIUS;
+        return c_ang * planconverterjs.__helpers.constants.EARTH_RADIUS;*/
+        var r = GeographicLib.Geodesic.WGS84.Inverse(
+            this.latitude, this.longitude, b.latitude, b.longitude);
+        return r.s12 / 1852.0;
     }
 
     /* return the heading between this waypoint and the waypoint b */
     this.heading_to = function(b) {
-        var a_lat = this.latitude   * Math.PI / 180.0,
+        /*var a_lat = this.latitude   * Math.PI / 180.0,
             a_lon = this.longitude  * Math.PI / 180.0,
             b_lat = b.latitude      * Math.PI / 180.0,
             b_lon = b.longitude     * Math.PI / 180.0;
@@ -50,8 +53,10 @@ planconverterjs.waypoint = function(obj) {
         var x = Math.cos(a_lat)*Math.sin(b_lat) -
             Math.sin(a_lat)*Math.cos(b_lat)*Math.cos(d_lon);
 
-        var head = Math.atan2(y,x) * 180.0 / Math.PI;
-        head = Math.floor(head + 360) % 360;
+        var head = Math.atan2(y,x) * 180.0 / Math.PI;*/
+        var r = GeographicLib.Geodesic.WGS84.Inverse(
+            this.latitude, this.longitude, b.latitude, b.longitude);
+        head = Math.floor(r.azi1 + 360) % 360;
         return head;
     }
 

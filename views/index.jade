@@ -2,6 +2,7 @@ extends layout
 
 block headers
   script(src="http://code.jquery.com/jquery-1.8.2.js")
+  script(src="http://geographiclib.sf.net/scripts/geographiclib.js")
   script(src="#{host}/js/libplanconverter.js")
 
 block content
@@ -31,7 +32,7 @@ block content
         input(type='submit', id='fp_submit', value='Download')
 
 
-  script(type="text/javascript")
+  script(type="text/javascript").
     var global_fp = null;
     $("#upload_button").click(function() {
       $("#ans").html("")
