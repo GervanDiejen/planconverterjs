@@ -3,10 +3,10 @@
 # planconverterjs.py - convert FSX and FS9 flight plans to JSON
 #
 # -----------------------------------------------------------------------------
-# 
+#
 # LICENSE
 # --------
-# 
+#
 # Copyright (c) 2012, Klas Björkqvist
 # All rights reserved.
 #
@@ -14,19 +14,19 @@
 # modification, are permitted provided that the following conditions are met:
 #
 # 1. Redistributions of source code must retain the above copyright notice,
-#    this list of conditions and the following disclaimer. 
+#    this list of conditions and the following disclaimer.
 # 2. Redistributions in binary form must reproduce the above copyright notice,
 #    this list of conditions and the following disclaimer in the documentation
-#    and/or other materials provided with the distribution. 
+#    and/or other materials provided with the distribution.
 #
-# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
-# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
 # IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
 # ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
 # LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
 # CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
 # SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-# INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+# INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 # CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
@@ -55,10 +55,11 @@ def get_xml_if_xml(filename):
 class wpt_t:
     def __init__(self):
         self.icao = 'ZZZZ';
+        self.region = 'ZZZZ';
         self.type = 'ZZZZ';
         self.latitude = 0;
         self.longitude = 0;
- 
+
     #
     # Return a string describing this waypoint in JSON format
     #
@@ -73,6 +74,13 @@ class wpt_t:
         json += '}';
         return json;
 
+    def to_skyvector(self):
+        # Only prints GPS coordinates at the moment
+        # TODO figure out how to find all parts of other object names in skyvector...
+        if self.type == 'User' or True:
+            return 'G.{},{}'.format(self.latitude,self.longitude)
+        elif self.type == 'Airport':
+            return 'A.{0}.{1}'.format(self.icao[:2], self.icao)
 
 
 
@@ -91,7 +99,7 @@ class plan_t:
     def __init__(self):
         self.title = None;
         self.wpts = [];
-    
+
     #
     # Append the waypoint wpt to the waypoint list
     #
@@ -108,9 +116,16 @@ class plan_t:
         for i in range(0,len(self.wpts)):
             json += "%s%s\n" % (self.wpts[i].to_json(None if i == 0 else self.wpts[i-1]),
                 "," if i < len(self.wpts)-1 else "");
-        json += ']\n';
+        json += '],\n';
+        json += '"skyvector_url" : "%s"\n' % self.to_skyvector()
         json += '}\n';
         return json;
+
+    def to_skyvector(self):
+        return 'http://skyvector.com/?ll={},{}&plan={}'.format(
+                sum(x.latitude for x in self.wpts) / len(self.wpts),
+                sum(x.longitude for x in self.wpts) / len(self.wpts),
+                ':'.join(x.to_skyvector() for x in self.wpts))
 
 #
 # Parse a latitude or longitude string. Parses format like
@@ -182,11 +197,11 @@ def parse_fsx(tree):
 def parse_fs9(filename):
     f = open(filename, 'r');
     line = f.readline();
-    
+
     # sanity check of the first line
     if not re.match(r"\[[Ff]lightplan\]", line):
         return None;
-    
+
     # the plan we will return
     plan = plan_t();
 

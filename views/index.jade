@@ -42,6 +42,11 @@ block content
             alert("error");
           } else {
             $("#ans").append(fp.to_table("table"));
+            var svurl = fp.to_skyvector_url();
+            console.log(svurl);
+            var linkelem = $('<a/>', { 'href' : svurl } )
+            linkelem.text("Skyvector");
+            $("#ans").append(linkelem);
             global_fp = fp;
           }
         }

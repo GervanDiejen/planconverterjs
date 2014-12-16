@@ -51,5 +51,23 @@ planconverterjs.flightplan = function(title) {
         }
         return table;
     }
+
+    this.to_skyvector_url = function() {
+      var plan_url = "plan=";
+      var tot_lat = 0;
+      var tot_lon = 0;
+
+      for (var i = 0; i < this.wpts.length; i++) {
+        tot_lat += this.wpts[i].latitude;
+        tot_lon += this.wpts[i].longitude;
+        if (i > 0) {
+          plan_url += ":"
+        }
+        plan_url += "G." + this.wpts[i].latitude + "," + this.wpts[i].longitude
+      }
+      var center = "ll=" + (tot_lat / this.wpts.length) + "," + (tot_lon / this.wpts.length);
+
+      return "http://skyvector.com/?" + center + "&" + plan_url;
+    }
 }
 
