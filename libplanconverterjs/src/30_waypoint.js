@@ -61,11 +61,12 @@ planconverterjs.waypoint = function(obj) {
         return head;
     }
 
-    this.to_row = function(acc, prev) {
+    this.to_row = function(i, acc, prev) {
         var row = $("<tr/>", {
             "class" : planconverterjs.__helpers.constants.FLIGHT_PLAN_CLASS_NAME
         });
 
+        row.append(planconverterjs.__helpers.functions.make_cell(i));
         row.append(planconverterjs.__helpers.functions.make_cell(this.icao));
 
         var hdg = 0;

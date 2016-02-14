@@ -26,11 +26,15 @@ exports.post = function(req, res, next) {
             function(err, stdout, stderr) {
                 if (err !== null) {
                     console.log('post processor returned ' + err.code);
+                    console.log(stderr);
                     next(new Error('unable to parse file'));
                 } else {
                     res.attachment(req.body.fn);
                     res.send(stdout);
                 }
             });
+    console.log('asd');
+    console.log(req.body);
     child.stdin.end(req.body.fp);
+    console.log('qwe');
 };

@@ -37,6 +37,7 @@ planconverterjs.flightplan = function(title) {
         header2 = $("<tr/>", {
             "class" : planconverterjs.__helpers.constants.FLIGHT_PLAN_CLASS_NAME
         });
+        header2.append(planconverterjs.__helpers.functions.make_cell("", "th"));
         header2.append(planconverterjs.__helpers.functions.make_cell("ID", "th"));
         header2.append(planconverterjs.__helpers.functions.make_cell("Heading", "th"));
         header2.append(planconverterjs.__helpers.functions.make_cell("Distance", "th"));
@@ -47,10 +48,10 @@ planconverterjs.flightplan = function(title) {
         
         /* add each waypoint on a row */
         acc = 0.0;
-        table.append(this.wpts[0].to_row(acc));
+        table.append(this.wpts[0].to_row(0, acc));
         for (var i = 1; i < this.wpts.length; i++) {
             acc = acc + this.wpts[i-1].distance(this.wpts[i]);
-            table.append(this.wpts[i].to_row(acc, this.wpts[i-1]));
+            table.append(this.wpts[i].to_row(i, acc, this.wpts[i-1]));
         }
         return table;
     }
